@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Stanford University
+subtitle: [Stanford University](https://dlcl.stanford.edu/people/chloe-brault)
 
 profile:
   align: right
