@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Arcade published my essay [The Places and Uses of Data](https://shc.stanford.edu/arcade/interventions/places-and-uses-data).
+Gender News published my opinion piece [Real Recourse for the Win](https://gender.stanford.edu/news/opinion-real-recourse-win).
