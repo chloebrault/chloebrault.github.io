@@ -4,6 +4,7 @@ title: Arcade published my essay "The Places and Uses of Data"
 date: 2024-12-20
 inline: false
 related_posts: false
+published: false
 ---
 
 Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
