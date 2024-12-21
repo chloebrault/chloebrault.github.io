@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Arcade published my essay ["The Places and Uses of Data"](https://shc.stanford.edu/arcade/colloquies/data-divides-us-methods-and-frameworks-data-across-humanities)
+Arcade published my essay ["The Places and Uses of Data"](https://shc.stanford.edu/arcade/interventions/places-and-uses-data)
