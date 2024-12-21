@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Stanford University
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Bonjour/hi! I am Chloé Brault, and I am a Graduate Dissertation Fellow at Stanford’s Clayman Institute for Gender Research. I was previously a dissertation fellow at Stanford’s Center for Spatial and Textual Analysis as a part of the Mellon Sawyer Seminar “The Data that Divides Us.” I will complete my PhD in comparative literature at Stanford in June 2025. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I study French and francophone literature, race, ethnicity, gender, sexuality, and computational text analysis. My dissertation analyzes the construction of white negritude by Vallières, Aimé Césaire, and Dany Laferrière, three men who defined their literary careers in writing about blackness, and my latest writing investigates the relationship between masculinity, charisma, and authority for francophone literary writers. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
