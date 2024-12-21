@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Gender News published my opinion piece [Real Recourse for the Win](https://gender.stanford.edu/news/opinion-real-recourse-win).
-date: 2024-12-16
+title: Arcade published my essay The Places and Uses of Data.
+date: 2024-12-20
 inline: false
 related_posts: false
 ---
