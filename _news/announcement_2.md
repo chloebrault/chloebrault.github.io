@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Arcade published my essay The Places and Uses of Data.
+title: Arcade published my essay "The Places and Uses of Data"
 date: 2024-12-20
 inline: false
 related_posts: false
