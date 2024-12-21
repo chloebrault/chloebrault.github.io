@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Gender News published my opinion piece [Real Recourse for the Win](https://gender.stanford.edu/news/opinion-real-recourse-win).
+date: 2024-12-16
 inline: false
 related_posts: false
 ---
