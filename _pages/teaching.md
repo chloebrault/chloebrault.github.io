@@ -5,7 +5,7 @@ title: teaching
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 3
-published: false
+published: true
 ---
 
 “Data for Humanists,” Center for Spatial and Textual Analysis, Stanford U, Winter-Spring 2024
