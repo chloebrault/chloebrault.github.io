@@ -72,7 +72,7 @@
       "date": "2024-09-01",
       "awarder": "Clayman Institute for Gender Research, Stanford University",
       "url": "https://gender.stanford.edu/people/chloe-brault",
-      "summary": "'"
+      "summary": ""
     },
     {
       "title": "Mellon Sawyer Dissertation Fellowship",
@@ -99,50 +99,55 @@
       "title": "Doctoral Fellowship",
       "date": "2021-09-01",
       "awarder": "Social Sciences and Humanities Research Council of Canada",
-      "url": "",
+      "url": "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2020/doctoral_fellowships-bourses_de_doctorat-eng.aspx",
       "summary": ""
     }
   ],
   "certificates": [
     {
-      "name": "Language Teaching",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Certificate in Language Program Management",
+      "date": "2023-06-01",
+      "issuer": "The Stanford Language Center",
+      "url": "https://language.stanford.edu/",
+      "icon": ""
     },
     {
-      "name": "DHSI",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "NLP, Coding Liibraries, and Network Analysis for Text Corpora",
+      "date": "2024-06-14",
+      "issuer": "Digital Humanities Summer Institute",
+      "url": "https://dhsi.org/conference-colloquium-2024/",
+      "icon": ""
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker",
+      "fluency": "Superior",
       "icon": ""
     },
     {
       "language": "French",
-      "fluency": "Native speaker",
+      "fluency": "Superior",
       "icon": ""
     },
     {
       "language": "Portuguese",
-      "fluency": "Fluent",
+      "fluency": "Advanced",
       "icon": ""
     },
     {
       "language": "Spanish",
-      "fluency": "Fluent",
+      "fluency": "Intermediate",
       "icon": ""
     },
     {
       "language": "Dutch",
-      "fluency": "Beginner",
+      "fluency": "Novice",
+      "icon": ""
+    },
+    {
+      "language": "Turkish",
+      "fluency": "Novice",
       "icon": ""
     }
   ]
