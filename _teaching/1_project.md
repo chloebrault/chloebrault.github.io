@@ -6,7 +6,7 @@ img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
-permalink: permalink: /teaching/project 1
+permalink: /teaching/project 1
 ---
 
 Every project has a beautiful feature showcase page.
