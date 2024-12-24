@@ -20,7 +20,7 @@ Bonjour/hi!
 
 I am a Graduate Dissertation Fellow at the [Clayman Institute for Gender Research](https://gender.stanford.edu/). I was previously a Mellon Sawyer Graduate Dissertation Fellow at the [Center for Spatial and Textual Analysis](https://cesta.stanford.edu/). I will be wrapping up PhD in comparative literature in June 2025. This website is for my work with computational methods.
 
-I describe text corpora as data in [an interview](https://news.stanford.edu/stories/2024/05/where-data-and-the-humanities-intersect) for _Stanford Report_. And in [an essay](https://shc.stanford.edu/arcade/interventions/places-and-uses-data) published by _Arcade: The Humanities in the World_, I argued that, for humanists, data presents an opportunity to examine methods, to scale claims, and to iterate arguments. 
+I describe text corpora as data in [an interview](https://news.stanford.edu/stories/2024/05/where-data-and-the-humanities-intersect) for _Stanford Report_. And in [an essay](https://shc.stanford.edu/arcade/interventions/places-and-uses-data) published by _Arcade: The Humanities in the World_, I argued that, for humanists, data presents an opportunity to examine methods, scale claims, and iterate arguments. 
 
 I attended DHSI in June 2024. At DH2024 in August, I participated in the pre-conference event co-organized by [ADHO Multilingual DH Special Interest Group](https://multilingualdh.org/) and [DARIAH Multilingual DH Working Group](https://multilingual.hypotheses.org/). I presented online at ACH in November 2024. 
 
