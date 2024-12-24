@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Chloé Brault",
-    "label": "Literary Scholar, Digital Humanist",
+    "label": "Digital humanist, multilingual literary scholar working accross race, ethnicity, gender and sexuality studies, instructor of francophone literature and French language, English-language writing tutor",
     "image": "",
     "email": "cbmack@stanford.edu",
     "phone": "",
     "url": "",
-    "summary": "",
+    "summary": "Digital humanist, multilingual literary scholar working accross race, ethnicity, gender and sexuality studies, instructor of francophone literature and French language, English-language writing tutor",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,7 +24,7 @@
   },
   "work": [
     {
-      "name": "Comparative Literature, Division of Literatures, Cultures, and Languages (DLCL), Stanford University",
+      "name": "Department of Comparative Literature, Division of Literatures, Cultures, and Languages (DLCL), Stanford University",
       "position": "PhD Candidate",
       "url": "https://dlcl.stanford.edu/people/chloe-brault",
       "startDate": "2017-09-01",
@@ -39,7 +39,7 @@
       "startDate": "2022-06-01",
       "endDate": "2025-06-30",
       "summary": "",
-      "highlights": ["Humanities, literature, and proficiency-based learning"]
+      "highlights": ["I apply the principles of Students’ Right to Their Own Language by working collaboratively with my learners, meeting them where they are at, offering the perspective of a generalist reader, and ultimately trusting and affirming their judgments and expertise. The graduate students and post-docs who schedule recurring appointments with me are training in Performance Studies, Black Studies, Education, Sustainability, Law, Medicine, and Computer Science. In this role, I also regularly design and run workshops for undergraduates on topics such as “Zotero for Writing.”"]
     }
   ],
   "education": [
@@ -47,7 +47,7 @@
       "institution": "University of Toronto",
       "location": "Toronto, Canada",
       "url": "",
-      "area": "Book History and Print Culture",
+      "area": "Comparative Literature and Book History & Print Culture",
       "studyType": "Master of Arts",
       "startDate": "2015-09-01",
       "endDate": "2016-08-30",
@@ -104,13 +104,6 @@
     }
   ],
   "certificates": [
-    {
-      "name": "Certificate in Language Program Management",
-      "date": "2023-06-01",
-      "issuer": "The Stanford Language Center",
-      "url": "https://language.stanford.edu/",
-      "icon": ""
-    },
     {
       "name": "NLP, Coding Liibraries, and Network Analysis for Text Corpora",
       "date": "2024-06-14",
