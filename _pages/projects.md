@@ -2,7 +2,7 @@
 layout: page
 title: research projects
 permalink: /projects/
-description: An overview of my digital and analog humanities research
+description: sample research projects using computational methods
 nav: true
 nav_order: 2
 display_categories: [work, fun]
