@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: talks and publications
-description: a selection of conference talks and publications
+description: sample of talks and public writing
 nav: true
 nav_order: 3
 published: true
