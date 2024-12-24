@@ -3,7 +3,7 @@ layout: class
 title: "Education 111"
 description: "The Young Adult Novel: Adolescent Literature & Literacy"
 img: assets/img/education111.jpg
-importance: 3
+importance: 1
 location: Stanford
 year: 2020-2022, 2024
 type: Co-Instructor with Jennifer Wolf
