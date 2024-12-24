@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Chloé Brault",
-    "label": "Digital humanist, multilingual literary scholar working accross race, ethnicity, gender and sexuality studies, instructor of francophone literature and French language, English-language writing tutor",
+    "label": "",
     "image": "",
     "email": "cbmack@stanford.edu",
     "phone": "",
     "url": "",
-    "summary": "Digital humanist, multilingual literary scholar working accross race, ethnicity, gender and sexuality studies, instructor of francophone literature and French language, English-language writing tutor",
+    "summary": "Digital humanist, literary scholar working in race, ethnicity, gender and sexuality studies, instructor of francophone literature and French language, writing tutor",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,7 +24,7 @@
   },
   "work": [
     {
-      "name": "Department of Comparative Literature, Division of Literatures, Cultures, and Languages (DLCL), Stanford University",
+      "name": "Department of Comparative Literature, Division of Literatures, Cultures, and Languages, Stanford University",
       "position": "PhD Candidate",
       "url": "https://dlcl.stanford.edu/people/chloe-brault",
       "startDate": "2017-09-01",
@@ -119,6 +119,13 @@
       "date": "2024-06-14",
       "issuer": "Digital Humanities Summer Institute",
       "url": "https://dhsi.org/conference-colloquium-2024/",
+      "icon": ""
+    },  
+    {
+      "name": "Certificate in Language Program Management",
+      "date": "2023-06-30",
+      "issuer": "Stanford Language Center",
+      "url": "https://language.stanford.edu/",
       "icon": ""
     }
   ],
