@@ -66,20 +66,41 @@
       "courses": ""
     }
   ],
-  "fellowships": [
+  "awards": [
     {
-      "title": "Clayman",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Graduate Dissertation Fellowship",
+      "date": "2024-09-01",
+      "awarder": "Clayman Institute for Gender Research, Stanford University",
+      "url": "https://gender.stanford.edu/people/chloe-brault",
+      "summary": "'"
     },
     {
-      "title": "CESTA",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Mellon Sawyer Dissertation Fellowship",
+      "date": "2023-09-01",
+      "awarder": "Center for Spatial and Textual Analysis, Stanford University",
+      "url": "https://cesta.stanford.edu/news/stanford-receives-major-mellon-foundation-award-be-hosted-center-spatial-and-textual-analysis?search=brault&page=0%2C1",
+      "summary": ""
+    },
+    {
+      "title": "James Baldwin Essay Prize",
+      "date": "2023-06-01",
+      "awarder": "France-Stanford Center For Interdisciplinary Studies, Stanford University",
+      "url": "https://francestanford.stanford.edu/james-baldwin-essay-prize-3",
+      "summary": ""
+    },
+    {
+      "title": "Digital Humanities Graduate Fellowship",
+      "date": "2022-01-01",
+      "awarder": "Center for Spatial and Textual Analysis, Stanford University",
+      "url": "https://cesta.stanford.edu/people/chloe-brault",
+      "summary": ""
+    },
+    {
+      "title": "Doctoral Fellowship",
+      "date": "2021-09-01",
+      "awarder": "Social Sciences and Humanities Research Council of Canada",
+      "url": "",
+      "summary": ""
     }
   ],
   "certificates": [
