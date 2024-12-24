@@ -2,7 +2,7 @@
 layout: page
 title: teaching and workshops
 permalink: /teaching/
-description: An overview of courses and workshops that I offered in the past
+description: sample of courses and workshops 
 nav: true
 nav_order: 4
 display_categories: [teaching, workshops]
