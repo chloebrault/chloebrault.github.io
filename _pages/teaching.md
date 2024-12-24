@@ -5,54 +5,27 @@ title: teaching
 description: 
 nav: true
 nav_order: 4
-horizontal: false
 published: true
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{%- if site.enable_teaching_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.teaching | where: "category", category -%}
-  {%- assign sorted_teaching = categorized_teaching | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for class in sorted_teaching -%}
-      {% include teaching_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for class in sorted_teaching -%}
-      {% include teaching.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-  {% endfor %}
+## “Data for Humanists,” Center for Spatial and Textual Analysis, Stanford U, Winter-Spring 2024
 
-{%- else -%}
-<!-- Display projects without categories -->
-  {%- assign sorted_teaching = site.teaching | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for class in sorted_teaching -%}
-      {% include teaching_horizontal.html %}
-    {%- endfor %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Data_for_Humanists.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for teaching in sorted_teaching -%}
-      {% include teaching.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-{%- endif -%}
 </div>
+<div class="caption">
+    The image is the poster for the event.
+</div>
+
+I co-hosted this six-part workshop with the goal of setting a low barrier to entry for graduate and advanced undergraduate students wanting to explore the affordances of using data to build and sustain humanistic arguments. We assigned the work of digital humanities scholars local to Stanford (Quinn Dombrowski, among others) and then invited them to join us to discuss their work, the data they use, how they manage that data, the challenges the data presents, and the methods they use to overcome those challenges.
+
+## “Teaching in the Age of Generative AI: Grad Instructor Roundtable,” Center for Teaching and Learning, Stanford U, Spring 2023
+
+I co-hosted this three-part workshop with PhD candidates in history and computer science. Our collaboration was funded by a Graduate Resources for Equity and Access in Teaching Grant from Stanford’s Center for Teaching and Learning. Just six months after OpenAI launched ChatGPT’s public chatbot, our proposal was to pause and reflect on large language models as a set of technologies with the potential to either enhance or diminish equity and access in teaching across science, engineering, humanities, and social science disciplines. A dozen graduate instructors attended our two sessions, from and seven participants co-wrote a resource document summarizing our conversation and the teaching strategies we discussed. 
+
+## “Zotero for Writing,” Hume Center for Writing and Speaking, Stanford U, 2024-2025
+
+I designed and delivered this workshop three times for history majors preparing their honor’s thesis and capstone projects. After I demo Zotero for citation management and bibliography, the learners experiment with the “slip-box method” for note-taking, which gives priority thoughtful organization of ideas and notes, using “child notes” and tagging functions within Zotero.
+
