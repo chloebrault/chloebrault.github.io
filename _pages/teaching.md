@@ -5,6 +5,7 @@ title: teaching
 description: 
 nav: true
 nav_order: 4
+horizontal: false
 published: true
 ---
 
