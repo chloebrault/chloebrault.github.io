@@ -30,7 +30,7 @@
       "startDate": "2017-09-01",
       "endDate": "2025-06-30",
       "summary": "",
-      "highlights": ["French and Francophone Literature"]
+      "highlights": ["French and Francophone literature, critical race and ethnicity studies, gender and sexuality studies, digital humanities, computational textual analysis, Caribbean literature, Quebec literature, discourses of blackness, third world radicalism, and literary publishing in Montreal since 1963"]
     },
     {
       "name": "Hume Center for Writing and Speaking, Stanford University",
@@ -40,7 +40,17 @@
       "endDate": "2025-06-30",
       "summary": "",
       "highlights": ["I apply the principles of Students’ Right to Their Own Language by working collaboratively with my learners, meeting them where they are at, offering the perspective of a generalist reader, and ultimately trusting and affirming their judgments and expertise. The graduate students and post-docs who schedule recurring appointments with me are training in Performance Studies, Black Studies, Education, Sustainability, Law, Medicine, and Computer Science. In this role, I also regularly design and run workshops for undergraduates on topics such as “Zotero for Writing.”"]
-    }
+    },
+     {
+      "name": "Language Center, Stanford University",
+      "position": "Instructor of French",
+      "url": "https://language.stanford.edu/programs-languages/french",
+      "startDate": "2018-09-01",
+      "endDate": "2023-06-30",
+      "summary": "",
+      "highlights": [""]
+    },
+    
   ],
   "education": [
     {
