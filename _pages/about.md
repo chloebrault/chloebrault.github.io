@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 
 Bonjour/hi! 
 
-I am a Graduate Dissertation Fellow at the [Clayman Institute for Gender Research](https://gender.stanford.edu/). I was previously a Mellon Sawyer Graduate Dissertation Fellow at the [Center for Spatial and Textual Analysis](https://cesta.stanford.edu/). I will be wrapping up PhD in comparative literature in June 2025. This website is for my work with computational methods.
+I am a Graduate Dissertation Fellow at the [Clayman Institute for Gender Research](https://gender.stanford.edu/). I was previously a Mellon Sawyer Graduate Dissertation Fellow at the [Center for Spatial and Textual Analysis](https://cesta.stanford.edu/). I will be wrapping up my PhD in comparative literature in June 2025. This website is for my work with computational methods.
 
 I describe text corpora as data in [an interview](https://news.stanford.edu/stories/2024/05/where-data-and-the-humanities-intersect) for _Stanford Report_. And in [an essay](https://shc.stanford.edu/arcade/interventions/places-and-uses-data) published by _Arcade: The Humanities in the World_, I argued that, for humanists, data presents an opportunity to examine methods, scale claims, and iterate arguments. 
 
