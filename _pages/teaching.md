@@ -1,8 +1,8 @@
 ---
 layout: page
-title: teaching and workshops
+title: teaching
 permalink: /teaching/
-description: sample of research projects using computational methods
+description: sample of courses and workshops
 nav: true
 nav_order: 4
 display_categories: [courses, workshops]
