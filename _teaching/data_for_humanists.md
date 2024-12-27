@@ -2,7 +2,7 @@
 layout: page
 title: data for humanists
 description: CESTA - Mellon Sawyer Workshop Series (Winter 2024)
-img: assets/img/Data_for_Humanists.jpg
+img: assets/img/Data_for_Humanists.png
 importance: 1
 category: work
 related_publications: true
