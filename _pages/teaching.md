@@ -5,7 +5,7 @@ permalink: /teaching/
 description: sample of courses and workshops 
 nav: true
 nav_order: 4
-display_categories: [teaching, workshops, work]
+display_categories: [courses, workshops, work]
 horizontal: false
 ---
 
