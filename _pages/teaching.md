@@ -5,7 +5,7 @@ permalink: /teaching/
 description: sample of research projects using computational methods
 nav: true
 nav_order: 4
-display_categories: [courses, workshops, work]
+display_categories: [courses, workshops]
 horizontal: false
 ---
 
