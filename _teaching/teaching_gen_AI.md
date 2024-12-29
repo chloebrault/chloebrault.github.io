@@ -16,10 +16,10 @@ We as graduate students are in a liminal space. We are both students taking cour
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/teaching_AI.png" title="example image" class="img-fluid rounded z-depth-1" %}
+         <img src="assets/img/teaching_AI.png" alt="example image" class="img-fluid rounded z-depth-1">
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ctl_grant_screenshot.png" title="example image" class="img-fluid rounded z-depth-1" %}
+         <img src="assets/img/ctl_grant_screenshot.png" alt="example image" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
