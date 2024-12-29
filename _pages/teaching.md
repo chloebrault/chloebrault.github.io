@@ -2,10 +2,10 @@
 layout: page
 title: Teaching
 permalink: /teaching/
-description: Selected courses and workshops
+description:
 nav: true
 nav_order: 4
-display_categories: [courses, workshops]
+display_categories: [selected courses, workshops]
 horizontal: false
 ---
 
