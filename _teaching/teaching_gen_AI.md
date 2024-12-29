@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teaching in the Age of Generative AI
-description: a roundtable by and for graduate students
+description:
 img: assets/img/teaching_AI.png
 importance: 1
 category: workshops
