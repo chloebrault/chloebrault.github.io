@@ -1,48 +1,30 @@
 ---
 layout: page
 title: Where is the World for Quebec?
-description: tracking claims to globality in leftist magazines published in 1960s and 70s-Montreal
+description:
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-We compiled, counted, characterized, and visualized claims to globality across texts published in leftist magazines published from the mid-1960s to the mid-1970s, including _Parti Pris_, _Cité Libre_, and _Québec-presse_. We prototyped the project on 40 magazine issues, iteratively experimenting with named entity recognition and topic modeling.
+We compiled, counted, characterized, and visualized claims to globality across texts published in 970 leftist magazines issues published in Montreal from the mid-1960s to the mid-1970s, including _Revue Parti Pris_, _Cité Libre_, and _Québec-presse_. We prototyped the project on the 40 existing issues of _Revue Parti Pris_, iteratively experimenting with named entity recognition and topic modeling.
 
-## Introduction and Questions
+## Introduction
+Where in the world for Quebec? From the 1960s to the 1990s, some writers argued that Quebec was part of Latin America. One writer argued that the most northern pole of Latin America. Others compared Quebec to Vietnam. Jean-Daniel Lafond imagined Quebec as being Caribbean. He and others imagined Montreal being an island in the Caribbean Sea and the counterpart to Martinique.
 
-Where in the world for Quebec? From the 1960s to the 1990s, some writers argued that Quebec
-was part of Latin America. One writer argued that the most northern pole of Latin America.
-Others compared Quebec to Vietnam. Jean-Daniel Lafond imagined Quebec as being Caribbean.
-He and others imagined Montreal being an island in the Caribbean Sea and the counterpart to
-Martinique.
-
-“It could very well be that this long-lost kinship is inscribed in an ancient miscegenation and in a
-clandestine creoleness that secretly unites the North and the South of the other America, of which
-only a few traces remain that only rare geographers can read and some signs that only poets still
-know how to decipher.
-
-“So the old maps of the 17th century used to say: ‘South of Anticosti begins the Caribbean
-Sea…’” add citation, page 13
+“It could very well be that this long-lost kinship is inscribed in an ancient miscegenation and in a clandestine creoleness that secretly unites the North and the South of the other America, of which only a few traces remain that only rare geographers can read and some signs that only poets still know how to decipher. So the old maps of the 17th century used to say: ‘South of Anticosti begins the Caribbean Sea…’” add citation, page 13
 
 ADD ANTICOSTI IMAGE
 
-Anticosti is an island in the North Atlantic Ocean, and the Caribbean Sea is a
-large oceanic sea, also located in the basin of the North Atlantic, but at a very different lattitude
-(approx. -62.96 and 15.33)
+Anticosti is an island in the North Atlantic Ocean, and the Caribbean Sea is a large oceanic sea, also located in the basin of the North Atlantic, but at a very different lattitude (approx. -62.96 and 15.33)
 
-What can I say about "South of Anticosti begins the Caribbean Sea…"? How can I characterize
-this claim? Its a claim for a relationship between two places. Its also strictly untrue as a
-geographic claim in the most colloquial definition of geographic. How is the claim still
-productive if untrue?
+## Questions 
+What can I say about "South of Anticosti begins the Caribbean Sea…"? How can I characterize this claim? Its a claim for a relationship between two places. Its also strictly untrue as a geographic claim in the most colloquial definition of geographic. How is the claim still productive if untrue?
 
-I use named entity recognition (NER) and topic modeling to characterize the relationship established in the claims like "South of Anticosti begins the Caribbean Sea…" by scaling out to similar relationship between two places. In many cases, one of the two places if Quebec, or a place considered a part of Quebec, or places
-that contain Quebec, like North America. But the corpus also surfaced relationships between two
-places neither of which was Quebec.
+I use named entity recognition (NER) and topic modeling to characterize the relationship established in the claims like "South of Anticosti begins the Caribbean Sea…" by scaling out to similar relationship between two places. In many cases, one of the two places if Quebec, or a place considered a part of Quebec, or places that contain Quebec, like North America. But the corpus also surfaced relationships between two places neither of which was Quebec.
 
 ## Corpus
-
 I built a corpus of texts published in _Revue Parti Pris_, a Montreal-based leftist magazine that
 published political and cultural commentary from 1963 to 1968. I used the scraper coded by
 Quinn Dombrowski for Quebec’s National Library and Archives’ to aquire the complete print
