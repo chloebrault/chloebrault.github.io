@@ -2,7 +2,7 @@
 layout: page
 title: Zotero
 description: essential digital tools for humanists
-img: assets/img/zotero.jpg
+img: assets/img/zotero.png
 importance: 2
 category: courses
 ---
