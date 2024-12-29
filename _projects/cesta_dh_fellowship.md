@@ -4,7 +4,7 @@ title: Belatedly Canceled: White [N-words] of America in the Press
 description:
 img: assets/img/cesta_anthology_drawing.jpg
 importance: 2
-category: work
+category: digital humanities
 related_publications: false
 ---
 

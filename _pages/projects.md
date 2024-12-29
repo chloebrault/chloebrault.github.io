@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selected projects using computational methods
 nav: true
 nav_order: 2
-display_categories:
+display_categories: [digital humanities]
 horizontal: false
 ---
 

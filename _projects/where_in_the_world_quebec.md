@@ -4,7 +4,7 @@ title: Where is the World for Quebec?
 description:
 img: assets/img/chloe_ucla_city_arrow.jpg
 importance: 1
-category: work
+category: digital humanities
 related_publications: true
 ---
 
