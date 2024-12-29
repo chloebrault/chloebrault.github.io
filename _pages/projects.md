@@ -2,7 +2,7 @@
 layout: page
 title: research projects
 permalink: /projects/
-description: sample of research projects using computational methods
+description: Selected research projects using computational methods
 nav: true
 nav_order: 2
 display_categories:
