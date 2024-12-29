@@ -30,7 +30,9 @@
       "startDate": "2017-09-01",
       "endDate": "2025-06-30",
       "summary": "",
-      "highlights": ["French and Francophone literature, critical race and ethnicity studies, gender and sexuality studies, digital humanities, computational textual analysis, Caribbean literature, Quebec literature, discourses of blackness, third world radicalism, and literary publishing in Montreal since 1963"]
+      "highlights": [
+        "French and Francophone literature, critical race and ethnicity studies, gender and sexuality studies, digital humanities, computational textual analysis, Caribbean literature, Quebec literature, discourses of blackness, third world radicalism, and literary publishing in Montreal since 1963"
+      ]
     },
     {
       "name": "Hume Center for Writing and Speaking, Stanford University",
@@ -39,18 +41,21 @@
       "startDate": "2022-06-01",
       "endDate": "2025-06-30",
       "summary": "",
-      "highlights": ["I apply the principles of Students’ Right to Their Own Language by working collaboratively with my learners, meeting them where they are at, offering the perspective of a generalist reader, and ultimately trusting and affirming their judgments and expertise. The graduate students and post-docs who schedule recurring appointments with me are training in Performance Studies, Black Studies, Education, Sustainability, Law, Medicine, and Computer Science. In this role, I also regularly design and run workshops for undergraduates on topics such as “Zotero for Writing.”"]
+      "highlights": [
+        "I apply the principles of Students’ Right to Their Own Language by working collaboratively with my learners, meeting them where they are at, offering the perspective of a generalist reader, and ultimately trusting and affirming their judgments and expertise. The graduate students and post-docs who schedule recurring appointments with me are training in Performance Studies, Black Studies, Education, Sustainability, Law, Medicine, and Computer Science. In this role, I also regularly design and run workshops for undergraduates on topics such as “Zotero for Writing.”"
+      ]
     },
-     {
+    {
       "name": "Language Center, Stanford University",
       "position": "Instructor of French",
       "url": "https://language.stanford.edu/programs-languages/french",
       "startDate": "2018-09-01",
       "endDate": "2023-06-30",
       "summary": "",
-      "highlights": ["While completing my PhD, I taught eight courses for the Stanford Language Center. Between Fall 2018 and Fall 2019, I taught the French first-year sequence—which had me alone in the classroom with my students for 55 minutes, five days a week—and one course from the second-year sequence of my own design. My classroom practices are informed by my pedagogical training in proficiency-based learning and certification with the American Council of the Teaching of Foreign Languages (ACTFL), and the work I completed to earn a Certificate in Language Program Management, including an internship in language program management at Stanford’s Language Center."]
+      "highlights": [
+        "While completing my PhD, I taught eight courses for the Stanford Language Center. Between Fall 2018 and Fall 2019, I taught the French first-year sequence—which had me alone in the classroom with my students for 55 minutes, five days a week—and one course from the second-year sequence of my own design. My classroom practices are informed by my pedagogical training in proficiency-based learning and certification with the American Council of the Teaching of Foreign Languages (ACTFL), and the work I completed to earn a Certificate in Language Program Management, including an internship in language program management at Stanford’s Language Center."
+      ]
     }
-    
   ],
   "education": [
     {
@@ -120,7 +125,7 @@
       "issuer": "Digital Humanities Summer Institute",
       "url": "https://dhsi.org/conference-colloquium-2024/",
       "icon": ""
-    },  
+    },
     {
       "name": "Certificate in Language Program Management",
       "date": "2023-06-30",

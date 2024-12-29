@@ -11,6 +11,7 @@ related_publications: true
 We compiled, counted, characterized, and visualized claims to globality across texts published in 970 leftist magazines issues published in Montreal from the mid-1960s to the mid-1970s, including _Revue Parti Pris_, _Cité Libre_, and _Québec-presse_. We prototyped the project on the 40 existing issues of _Revue Parti Pris_, iteratively experimenting with named entity recognition and topic modeling.
 
 ## Introduction
+
 Where in the world for Quebec? From the 1960s to the 1990s, some writers argued that Quebec was part of Latin America. One writer argued that the most northern pole of Latin America. Others compared Quebec to Vietnam. Jean-Daniel Lafond imagined Quebec as being Caribbean. He and others imagined Montreal being an island in the Caribbean Sea and the counterpart to Martinique.
 
 “It could very well be that this long-lost kinship is inscribed in an ancient miscegenation and in a clandestine creoleness that secretly unites the North and the South of the other America, of which only a few traces remain that only rare geographers can read and some signs that only poets still know how to decipher. So the old maps of the 17th century used to say: ‘South of Anticosti begins the Caribbean Sea…” (Jean-Daniel Lafond, _La Manière n_gre ou Aimé Césaire, chemin faisant_, 1993, pp 13, my translation)
@@ -26,7 +27,8 @@ Where in the world for Quebec? From the 1960s to the 1990s, some writers argued 
 
 Anticosti is an island in the North Atlantic Ocean, and the Caribbean Sea is a large oceanic sea, also located in the basin of the North Atlantic, but at a very different lattitude (approx. -62.96 and 15.33)
 
-## Questions 
+## Questions
+
 What can I say about "South of Anticosti begins the Caribbean Sea…"? How can I characterize this claim? Its a claim for a relationship between two places. Its also strictly untrue as a geographic claim in the most colloquial definition of geographic. How is the claim still productive if untrue?
 
 I use named entity recognition (NER) and topic modeling to characterize the relationship established in the claims like "South of Anticosti begins the Caribbean Sea…" by scaling out to similar relationship between two places. In many cases, one of the two places if Quebec, or a place considered a part of Quebec, or places that contain Quebec, like North America. But the corpus also surfaced relationships between two places neither of which was Quebec.
@@ -41,17 +43,18 @@ I use named entity recognition (NER) and topic modeling to characterize the rela
 </div>
 
 ## Corpus
+
 I built a corpus of texts published in _Revue Parti Pris_, a Montreal-based leftist magazine that
 published political and cultural commentary from 1963 to 1968. I used the scraper coded by
 Quinn Dombrowski for Quebec’s National Library and Archives’ to aquire the complete print
 production for Revue Parti Pris. I have just over 130,000 words accross 41 text files.
 
 ONE SCREENSHOT FROM THE NATIONAL LIBRARY PAGE
-    SOME STUFF ABOUT THE LIBRARY AND COLLECTION
-    SOME STUFF ABOUT SCRAPING
+SOME STUFF ABOUT THE LIBRARY AND COLLECTION
+SOME STUFF ABOUT SCRAPING
 
 ONE SCREENSHOT FROM ONE OF THE WORKS
-    SOME DESCRIPTION OF THE WORKS -> WHO, WHAT, WHEN, WHERE
+SOME DESCRIPTION OF THE WORKS -> WHO, WHAT, WHEN, WHERE
 
 ## Methods
 
@@ -62,7 +65,6 @@ For NER, we extracted the plain text using ABBYY Fine Reader, then we split the 
 Tekgürler took a second approach using the Wikidata IDs and a custom app script that they wrote after we detected irreguarities, which I think was the most time consuming part of this whole proof of concept. We ended up generating more coordinates in the second pass than the first. We then consoldated coordinates in the same rows that were matching. If there was no coordinate in the first pass, we defaulted to the second. If we had coordinates from both the first pass and the second, we still defaulted to the second. After all this, we eliminated all rows without coordinates, which resulted in 700 unique named location entities, down from 1,700 before the data clean up and consolidation.
 
 Using Named Entity Recognition, we generated 700 unique named location entities, which included cities, countries, continents, village, plazas, parks, streets, rivers, train stations, universities, geological descriptors. I wanted to exclude Quebec and locations situated in Quebec. By logical extension, I also excluded named location entities that include Quebec, like Canada, North America, and Americas, but not South America and Latin America. I did not want to distract from the geographical range represented in the corpus, especially with scaled visualizations. For now, I am focusing on Quebec in relationship to other named location entities with the assumption that Quebec is the node for each of these discrete relationships. Hence, Where is the world for Quebec?
-
 
 CODE SAMPLE MAYBE EVEN LINK TO THE JUPYTER NOTEBOOK
 
@@ -82,4 +84,4 @@ WHAT DOES IT SAY ABOUT DIGITAL METHODS IN THE HUMANITIES
 SOME REMARKS ABOUT MULTILINGUAL DH, WORKING WITH FRENHC ETC
 
 > Acknowledgements
-Thank you to Merve Tekgürler for making this project prototype possible in Fall 2023. Thank you to Quinn Dombrowski for initially coding the scraper in Winter 2023. Thank you to Em Ho for improving on Dombrowski's scraper in Summer 2024, and grow the corpus from 40 magazine issues to 970. My collaboration with Ho was made possible by the Stanford School of Humanities & Sciences through a Graduate Research Opportunity Grant. 
+> Thank you to Merve Tekgürler for making this project prototype possible in Fall 2023. Thank you to Quinn Dombrowski for initially coding the scraper in Winter 2023. Thank you to Em Ho for improving on Dombrowski's scraper in Summer 2024, and grow the corpus from 40 magazine issues to 970. My collaboration with Ho was made possible by the Stanford School of Humanities & Sciences through a Graduate Research Opportunity Grant.

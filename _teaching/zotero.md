@@ -24,4 +24,3 @@ I believe in learning and adapting cutting edge education technologies. I am cur
 <div class="caption">
     Here is a snapshot of my Zotero page
 </div>
-
