@@ -12,6 +12,15 @@ published: true
 
 <div class="publications">
 
-{% bibliography %}
+<h1>publications</h1>
+
+{% bibliography -f publication %}
+
+<h1>talks</h1>
+
+{% for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f talk -q @*[year={{y}}]* %}
+{% endfor %}
 
 </div>
