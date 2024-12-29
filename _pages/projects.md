@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research projects
+title: Research Projects
 permalink: /projects/
 description: Selected research projects using computational methods
 nav: true
