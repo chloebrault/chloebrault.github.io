@@ -6,6 +6,7 @@ description: Selected talks and public writing
 nav: true
 nav_order: 3
 published: true
+display_categories: [talks, public writing]
 ---
 
 <!-- _pages/publications.md -->
