@@ -28,7 +28,7 @@ published: true
   American Comparative Literature Association Annual Meeting (Montreal, Canada)  
   Brief overview of the talk or key takeaways.
 
-- ***White \[N-Words\] of America* in the Press (November 2024)**  
+- **_White \[N-Words\] of America_ in the Press (November 2024)**  
   The Association for Computers and the Humanities Conference (Online)  
   Brief overview of the talk or key takeaways.
 
@@ -66,4 +66,4 @@ published: true
 
 ---
 
-*Last updated: [December 2024]*
+_Last updated: [December 2024]_
