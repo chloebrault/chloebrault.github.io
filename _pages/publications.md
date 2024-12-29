@@ -11,4 +11,10 @@ display_categories: [talks, public writing]
 
 <!-- _pages/publications.md -->
 
-{% bibliography %}
+## Public Writing
+
+{% bibliography --query @*[type=publication] %}
+
+## Talks
+
+{% bibliography --query @*[type=talk] %}
