@@ -4,7 +4,7 @@ title: Zotero
 description: essential digital tools for humanists
 img: assets/img/zotero.png
 importance: 2
-category: courses
+category: workshops
 ---
 
 As a part of my position at Hume Center, I realized that students and scholars alike struggle with keeping track of citations. It is challenging. I designed this workshop to be accessible to broader audiences. A citation manager is an incredibly useful tool that makes everyone's writing process easier, allowing them to discover the joys and pleasures of writing.
