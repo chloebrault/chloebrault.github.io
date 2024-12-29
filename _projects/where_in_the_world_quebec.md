@@ -33,7 +33,7 @@ I use named entity recognition (NER) and topic modeling to characterize the rela
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/chloe_ucla_heatmap.tif" title="heatmap" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/chloe_ucla_heatmap.png" title="heatmap" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
