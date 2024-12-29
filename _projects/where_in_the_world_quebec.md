@@ -5,7 +5,7 @@ description:
 img: assets/img/chloe_ucla_city_arrow.jpg
 importance: 1
 category: digital humanities
-related_publications: true
+related_publications: false
 ---
 
 We compiled, counted, characterized, and visualized claims to globality across texts published in 970 leftist magazines issues published in Montreal from the mid-1960s to the mid-1970s, including _Revue Parti Pris_, _Cité Libre_, and _Québec-presse_. We prototyped the project on the 40 existing issues of _Revue Parti Pris_, iteratively experimenting with named entity recognition and topic modeling.
