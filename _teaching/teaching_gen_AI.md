@@ -8,20 +8,8 @@ category: workshops
 related_publications: false
 ---
 
-After the release of ChatGPT in November 2022, the whole Stanford campus was rushing to make decisions about what it means to teach with generative AI.
+I co-hosted this three-part round-table style workshop in Spring 2023 with PhD candidates in history and computer science. Our collaboration was funded by a Graduate Resources for Equity and Access in Teaching Grant from Stanford’s Center for Teaching and Learning. 
 
-SOME WORDING ABOUT THE WORKSHOP
+Just six months after OpenAI launched ChatGPT’s public chatbot in November 2022, our proposal was to pause and reflect on large language models as a set of technologies with the potential to either enhance or diminish equity and access in teaching. We designed the workshop for PhD candidates, knowing that our multiple instituional roles (as students, researchers, instructors, and teaching assistants) offer unique insights. 
 
-We as graduate students are in a liminal space. We are both students taking courses and instructors, teaching and TAing. Our positionality offers unique insights..
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/teaching_AI.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ctl_grant_screenshot.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    On the left is the event poster and on the right is a screenshot from the CTL website
-</div>
+A dozen graduate instructors attended our two sessions, bringing expertise from science, engineering, humanities, and social science disciplines to the discussion. Seven participants co-wrote a resource document summarizing our conversation and the teaching strategies we discussed. 
