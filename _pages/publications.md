@@ -13,51 +13,59 @@ display_categories: [talks, public writing]
 
 ## Public Writing
 
-- **Title of Piece (Year)**  
-  *Publication or Website*  
+- **The Place and Use of Data (2024)**  
+  *Arcade: The Humanities in the World, Stanford Humanities Center*  
+  [Access online](https://shc.stanford.edu/arcade/interventions/places-and-uses-data)
   Short description or abstract (if relevant).  
-
-- **Title of Piece (Year)**  
-  *Publication or Website*  
-  Short description or abstract.
-
----
-
-## Poster Presentations
-
-- **Poster Title (Year)**  
-  Presented at [Conference Name], [Location].  
-  Brief summary of research aim or results.
-
-- **Poster Title (Year)**  
-  Presented at [Conference Name], [Location].  
-  Brief summary of research aim or results.
 
 ---
 
 ## Conference Papers
 
-- **Paper Title (Year)**  
-  Presented at [Conference Name], [Location].  
-  Brief overview of paper or key takeaways.
+- **Islands that Repeat Themselves (October 2023)**  
+  Global Horizons of the Digital and Public Humanities Institute, Ca’ Foscari University of Venice (Venice, Italy)  
+  Brief overview of the talk or key takeaways.
 
-- **Paper Title (Year)**  
-  Presented at [Conference Name], [Location].  
-  Brief overview of paper or key takeaways.
+- **Normative Reading (March 2024)**  
+  American Comparative Literature Association Annual Meeting (Montreal, Canada)  
+  Brief overview of the talk or key takeaways.
+
+- **\_White [N-Words] of America\_ in the Press (November 2024)**  
+  The Association for Computers and the Humanities Conference (Online)  
+  Brief overview of the talk or key takeaways.
+
+- **Where is the World for Quebec? (February 2024)**  
+  Literary Lab Meeting, Stanford University (Stanford, California)  
+  Brief overview of the talk or key takeaways.
+
+- **The Places and Uses of Data (May 2024)**  
+  Mellon Sawyer Seminar, Center for Spatial and Textual Analysis, Stanford University (Stanford, California)  
+  Brief overview of the talk or key takeaways.
+
+- **Belatedly Canceled (May 2023)**  
+  Center for Spatial and Textual Analysis, Stanford University (Stanford, California)  
+  Co-presented by Chloé Brault and Clare Chua. Brief overview of the talk or key takeaways.
+
+- **In Progress: Making Research Communities Visible (January 2025)**  
+  Modern Languages Association Convention (New Orleans, Louisiana)
+  Brief overview of the talk or key takeaways.
+
+---
+
+## Poster Presentations
+
+- **Global French as made by authors and magazine issues (April 2025)**  
+   Global Digital Humanities Symposium, Michigan State University (East Lansing, Michigan)
+   Brief overview of paper or key takeaways.
 
 ---
 
 ## Roundtable Discussions
 
-- **Roundtable Name or Topic (Year)**  
-  [Conference or Event], [Location].  
-  Short description of contribution or focus of discussion.
-
-- **Roundtable Name or Topic (Year)**  
-  [Conference or Event], [Location].  
+- **AI and the Humanities (May 2024)**  
+  Division Symposium, Division of Languages, Literatures, and Cultures (DLCL), Stanford University (Stanford, California)  
   Short description of contribution or focus of discussion.
 
 ---
 
-_Last updated: [Month YYYY]_  
-
+*Last updated: [December 2024]*
