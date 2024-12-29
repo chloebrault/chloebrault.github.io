@@ -13,9 +13,16 @@ We compiled, counted, characterized, and visualized claims to globality across t
 ## Introduction
 Where in the world for Quebec? From the 1960s to the 1990s, some writers argued that Quebec was part of Latin America. One writer argued that the most northern pole of Latin America. Others compared Quebec to Vietnam. Jean-Daniel Lafond imagined Quebec as being Caribbean. He and others imagined Montreal being an island in the Caribbean Sea and the counterpart to Martinique.
 
-“It could very well be that this long-lost kinship is inscribed in an ancient miscegenation and in a clandestine creoleness that secretly unites the North and the South of the other America, of which only a few traces remain that only rare geographers can read and some signs that only poets still know how to decipher. So the old maps of the 17th century used to say: ‘South of Anticosti begins the Caribbean Sea…’” add citation, page 13
+“It could very well be that this long-lost kinship is inscribed in an ancient miscegenation and in a clandestine creoleness that secretly unites the North and the South of the other America, of which only a few traces remain that only rare geographers can read and some signs that only poets still know how to decipher. So the old maps of the 17th century used to say: ‘South of Anticosti begins the Caribbean Sea…” (Jean-Daniel Lafond, _La Manière n_gre ou Aimé Césaire, chemin faisant_, 1993, pp 13, my translation)
 
-ADD ANTICOSTI IMAGE
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/anticosti_carribean_sea.png" title="lafond" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Visualization produced at https://www.meridianoutpost.com/resources/etools/calculators/calculator-latitude-longitude-distance.php?
+</div>
 
 Anticosti is an island in the North Atlantic Ocean, and the Caribbean Sea is a large oceanic sea, also located in the basin of the North Atlantic, but at a very different lattitude (approx. -62.96 and 15.33)
 
