@@ -13,8 +13,51 @@ display_categories: [talks, public writing]
 
 ## Public Writing
 
-{% bibliography --query @*[type=publication] %}
+- **Title of Piece (Year)**  
+  *Publication or Website*  
+  Short description or abstract (if relevant).  
 
-## Talks
+- **Title of Piece (Year)**  
+  *Publication or Website*  
+  Short description or abstract.
 
-{% bibliography --query @*[type=talk] %}
+---
+
+## Poster Presentations
+
+- **Poster Title (Year)**  
+  Presented at [Conference Name], [Location].  
+  Brief summary of research aim or results.
+
+- **Poster Title (Year)**  
+  Presented at [Conference Name], [Location].  
+  Brief summary of research aim or results.
+
+---
+
+## Conference Papers
+
+- **Paper Title (Year)**  
+  Presented at [Conference Name], [Location].  
+  Brief overview of paper or key takeaways.
+
+- **Paper Title (Year)**  
+  Presented at [Conference Name], [Location].  
+  Brief overview of paper or key takeaways.
+
+---
+
+## Roundtable Discussions
+
+- **Roundtable Name or Topic (Year)**  
+  [Conference or Event], [Location].  
+  Short description of contribution or focus of discussion.
+
+- **Roundtable Name or Topic (Year)**  
+  [Conference or Event], [Location].  
+  Short description of contribution or focus of discussion.
+
+---
+
+_Last updated: [Month YYYY]_  
+
