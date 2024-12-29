@@ -82,4 +82,4 @@ WHAT DOES IT SAY ABOUT DIGITAL METHODS IN THE HUMANITIES
 SOME REMARKS ABOUT MULTILINGUAL DH, WORKING WITH FRENHC ETC
 
 > Acknowledgements
-> > Thank you to Merve Tekgürler for making this project prototype possible in Fall 2023. Thank you to Quinn Dombrowski for initially coding the scraper in Winter 2023. Thank you to Em Ho for improving on Dombrowski's scraper in Summer 2024, and grow the corpus from 40 magazine issues to 970. My collaboration with Ho was made possible by the Stanford School of Humanities & Sciences through a Graduate Research Opportunity Grant. 
+Thank you to Merve Tekgürler for making this project prototype possible in Fall 2023. Thank you to Quinn Dombrowski for initially coding the scraper in Winter 2023. Thank you to Em Ho for improving on Dombrowski's scraper in Summer 2024, and grow the corpus from 40 magazine issues to 970. My collaboration with Ho was made possible by the Stanford School of Humanities & Sciences through a Graduate Research Opportunity Grant. 
