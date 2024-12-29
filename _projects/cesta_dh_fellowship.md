@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Belatedly Canceled: White N-words of America in the Press
+title: "Belatedly Canceled: White [N-words] of America in the Press"
 description:
 img:
 importance: 2
