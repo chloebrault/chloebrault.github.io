@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Zotero
-description: a project with a background image and giscus comments
+description: essential digital tools for humanists
 img: assets/img/zotero.jpg
 importance: 2
 category: workshops

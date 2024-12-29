@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Feminism
-description: with background image
+description: a reading group
 img: assets/img/data_feminism.jpg
 importance: 1
 category: workshops
