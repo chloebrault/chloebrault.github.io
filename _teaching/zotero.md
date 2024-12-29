@@ -19,5 +19,5 @@ I designed this workshop as part of my writing tutor role at Stanford's Hume Cen
     </div>
 </div>
 <div class="caption">
-    Here is a snapshot of my Zotero page
+    Zotero is free and open-source citation and bibliography management software.
 </div>
