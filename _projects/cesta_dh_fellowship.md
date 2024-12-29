@@ -2,7 +2,7 @@
 layout: page
 title: "Belatedly Canceled: White [N-words] of America in the Press"
 description:
-img:
+img: assets/img/cesta_anthology_drawing.jpg
 importance: 2
 category: digital humanities
 related_publications: false
@@ -12,7 +12,7 @@ Between 1968 and 1971, Pierre Vallières got all the good press he and the Quebe
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fanon.jpg" title="pca" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/cesta_anthology_pca.jpg" title="pca" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
