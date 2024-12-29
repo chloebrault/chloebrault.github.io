@@ -1,16 +1,14 @@
 ---
 layout: page
 title: Where is the World for Quebec?
-description: an investigation of the local and the global for mid-century Quebec's independence movement
+description: tracking claims to globality in leftist magazines published in 1960s and 70s-Montreal
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-I argue that claims to the global shifted to become claims for the local exactly when Quebec’s independence movement lost political momentum.
-
-In this project, we compiled, counted, and characterized claims to globality across texts published in leftist magazines published from the mid-1960s to the mid-1970s, including Parti Pris, Cité Libre, and Québec-presse. We prototyped the project on 40 magazine issues, iteratively experimenting with named entity recognition and topic modeling. We argue that claims to the global shifted to become claims for the local exactly when Quebec’s independence movement lost political momentum.
+We compiled, counted, characterized, and visualized claims to globality across texts published in leftist magazines published from the mid-1960s to the mid-1970s, including _Parti Pris_, _Cité Libre_, and _Québec-presse_. We prototyped the project on 40 magazine issues, iteratively experimenting with named entity recognition and topic modeling.
 
 ## Introduction and Questions
 
