@@ -4,7 +4,7 @@ title: Fanon
 description: my upcoming Spring 2025 course at Stanford University
 img: assets/img/fanon.jpg
 importance: 3
-category: courses
+category: selected courses
 publish: true
 ---
 
