@@ -5,7 +5,7 @@ permalink: /projects/
 description: sample of research projects using computational methods
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories:
 horizontal: false
 ---
 
