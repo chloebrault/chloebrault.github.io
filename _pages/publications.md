@@ -28,23 +28,27 @@ published: true
   The Association for Computers and the Humanities Conference (Online)  
   Brief overview of the talk or key takeaways.
 
- - **The Places and Uses of Data (May 2024)**  
-  Mellon Sawyer Seminar, Center for Spatial and Textual Analysis, Stanford University (Stanford, California)  
-  Brief overview of the talk or key takeaways.
-
 - **Normative Reading (March 2024)**  
   American Comparative Literature Association Annual Meeting (Montreal, Canada)  
-  Brief overview of the talk or key takeaways.
-
-- **Where is the World for Quebec? (February 2024)**  
-  Literary Lab Meeting, Stanford University (Stanford, California)  
   Brief overview of the talk or key takeaways.
 
 - **Islands that Repeat Themselves (October 2023)**  
   Global Horizons of the Digital and Public Humanities Institute, Ca’ Foscari University of Venice (Venice, Italy)  
   Brief overview of the talk or key takeaways.
 
-- **Belatedly Canceled (May 2023)**  
+---
+
+## Campus Talks, selected
+
+ - **The Places and Uses of Data (May 2024)**  
+  Mellon Sawyer Seminar, Center for Spatial and Textual Analysis, Stanford University (Stanford, California)  
+  Brief overview of the talk or key takeaways.
+
+- **Where is the World for Quebec? (February 2024)**  
+  Literary Lab Meeting, Stanford University (Stanford, California)  
+  Brief overview of the talk or key takeaways.
+
+  - **Belatedly Canceled (May 2023)**  
   Center for Spatial and Textual Analysis, Stanford University (Stanford, California)  
   Co-presented by Chloé Brault and Clare Chua. Brief overview of the talk or key takeaways.
 
