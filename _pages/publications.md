@@ -14,9 +14,9 @@ display_categories: [talks, public writing]
 ## Public Writing
 
 - **The Place and Use of Data (2024)**  
-  *Arcade: The Humanities in the World, Stanford Humanities Center*  
+  _Arcade: The Humanities in the World, Stanford Humanities Center_  
   [Access online](https://shc.stanford.edu/arcade/interventions/places-and-uses-data)
-  Short description or abstract (if relevant).  
+  Short description or abstract (if relevant).
 
 ---
 
@@ -56,7 +56,7 @@ display_categories: [talks, public writing]
 
 - **Global French as made by authors and magazine issues (April 2025)**  
    Global Digital Humanities Symposium, Michigan State University (East Lansing, Michigan)
-   Brief overview of paper or key takeaways.
+  Brief overview of paper or key takeaways.
 
 ---
 
@@ -68,4 +68,4 @@ display_categories: [talks, public writing]
 
 ---
 
-*Last updated: [December 2024]*
+_Last updated: [December 2024]_
