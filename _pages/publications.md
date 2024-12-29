@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Talks and Publications
+title: Writing and Presentations
 description:
 nav: true
 nav_order: 3
@@ -10,7 +10,7 @@ published: true
 
 <!-- _pages/publications.md -->
 
-## Public Writing
+## Public Writing, selected
 
 - **The Place and Use of Data (2024)**  
   _Arcade: The Humanities in the World_, Stanford Humanities Center [Access online](https://shc.stanford.edu/arcade/interventions/places-and-uses-data)
