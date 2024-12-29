@@ -6,7 +6,6 @@ description: Selected talks and public writing
 nav: true
 nav_order: 3
 published: true
-display_categories: [talks, public writing]
 ---
 
 <!-- _pages/publications.md -->
@@ -14,8 +13,7 @@ display_categories: [talks, public writing]
 ## Public Writing
 
 - **The Place and Use of Data (2024)**  
-  _Arcade: The Humanities in the World, Stanford Humanities Center_  
-  [Access online](https://shc.stanford.edu/arcade/interventions/places-and-uses-data)
+  Arcade: The Humanities in the World, Stanford Humanities Center [Access online](https://shc.stanford.edu/arcade/interventions/places-and-uses-data)
   Short description or abstract (if relevant).
 
 ---
@@ -30,7 +28,7 @@ display_categories: [talks, public writing]
   American Comparative Literature Association Annual Meeting (Montreal, Canada)  
   Brief overview of the talk or key takeaways.
 
-- **\_White [N-Words] of America\_ in the Press (November 2024)**  
+- ***White \[N-Words\] of America* in the Press (November 2024)**  
   The Association for Computers and the Humanities Conference (Online)  
   Brief overview of the talk or key takeaways.
 
@@ -68,4 +66,4 @@ display_categories: [talks, public writing]
 
 ---
 
-_Last updated: [December 2024]_
+*Last updated: [December 2024]*
