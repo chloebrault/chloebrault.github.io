@@ -2,7 +2,7 @@
 layout: page
 title: Where is the World for Quebec?
 description:
-img: assets/img/12.jpg
+img: assets/img/chloe_ucla_city_arrow.jpg
 importance: 1
 category: work
 related_publications: true
@@ -23,6 +23,15 @@ Anticosti is an island in the North Atlantic Ocean, and the Caribbean Sea is a l
 What can I say about "South of Anticosti begins the Caribbean Sea…"? How can I characterize this claim? Its a claim for a relationship between two places. Its also strictly untrue as a geographic claim in the most colloquial definition of geographic. How is the claim still productive if untrue?
 
 I use named entity recognition (NER) and topic modeling to characterize the relationship established in the claims like "South of Anticosti begins the Caribbean Sea…" by scaling out to similar relationship between two places. In many cases, one of the two places if Quebec, or a place considered a part of Quebec, or places that contain Quebec, like North America. But the corpus also surfaced relationships between two places neither of which was Quebec.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/chloe_ucla_heatmap.tif" title="heatmap" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Quebec heat map
+</div>
 
 ## Corpus
 I built a corpus of texts published in _Revue Parti Pris_, a Montreal-based leftist magazine that
