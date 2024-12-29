@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /projects/
-description: Selected projects using computational methods
+description: 
 nav: true
 nav_order: 2
 display_categories: [digital humanities, dissertation]
