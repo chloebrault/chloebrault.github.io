@@ -1,16 +1,14 @@
 ---
 layout: page
 title: Fanon
-description:
+description: Stanford course for the Departments of French, Comparative Literature, and Feminist, Gender & Sexuality Studies, and the Center for Comparative Studies in Race and Ethnicity
 img: assets/img/fanon.jpg
 importance: 3
 category: selected courses
 publish: true
 ---
 
-In Spring 2025, I will teach "Fanon" at Stanford University for the Departments of French, Comparative Literature, and Feminist, Gender & Sexuality Studies, and the Center for Comparative Studies in Race and Ethnicity
-
-The course showcases how my assignments center free open-source programs, like Zotero and Tropy. My assignments ask my learners to students to write for more than one target audience: for peer scholars, using Zotero and Tropy annotation functions, and for the general public, by proposing edits to Wikipedia.
+I will teach "Fanon" at Stanford University for the Departments of French, Comparative Literature, and Feminist, Gender & Sexuality Studies, and the Center for Comparative Studies in Race and Ethnicity in Spring 2025. The course showcases how my assignments center free open-source programs, like Zotero and Tropy. My assignments ask my learners to students to write for more than one target audience: for peer scholars, using Zotero and Tropy annotation functions, and for the general public, by proposing edits to Wikipedia.
 
 *Course description*
 
