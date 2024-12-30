@@ -18,23 +18,28 @@ This project was funded by the Social Sciences and Humanities Research Council o
     </div>
 </div>
 <div class="caption">
-   Aimé Césaire, Miami, 1987
+   Aimé Césaire, Miami, 1987. Film still. 
+    *Aimé Césaire, le masque des mots.* Directed by Sarah Maldoror, RFO/ La Sept, 1987.
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Laferriere-How-to-make-love.jpg" title="Laferriere-How-to-make-love" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Dany Laferrière with his novel _Comment faire l'amour avec n_gre sans se fatiguer_, c. 1985
-</div>
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Vallieres_1970.jpg" title="Vallieres_1970" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Pierre Vallières, Montreal, 1970 
+    Pierre Vallières, Montreal, 1970. Portrait.
+    Filion, Réal. *Pierre Vallières*, 1970, Université de Montréal, https://monde.ccdmd.qc.ca/ressource/?id=115625&demande=desc 
 </div>
+
+</div>
+<div class="caption">
+    Dany Laferrière, c. 1985. Portrait.
+    Le Journal de Quebec, https://site.prix-fetkann.fr/dany-laferriere-nouvel-immortel-de-lacademie-francaise/dany-laferriere-slide_329674_3227307_free/
+</div>
+
+
