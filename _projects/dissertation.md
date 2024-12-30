@@ -12,3 +12,29 @@ This dissertation analyzes the construction of White Negritude by Pierre Valliè
 
 This project was funded by the Social Sciences and Humanities Research Council of Canada, France-Stanford, and Stanford’s Center for Spatial and Textual Analysis, and the Clayman Institute for Gender Research. I presented my work at the 20th & 21st Century French and Francophone Studies International Colloquium, the American Comparative Literature Association, and thrice at the Modern Language Association. In 2020, I started presenting my digital humanities research at numerous venues on Stanford’s campus, including the Literary Lab.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Cesaire-Miami.jpeg" title="Cesaire-Miami" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Aimé Césaire, Miami, 1987
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Laferriere-How-to-make-love.jpg" title="Laferriere-How-to-make-love" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Dany Laferrière with his novel _Comment faire l'amour avec n_gre sans se fatiguer_, c. 1985
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Vallieres_1970.jpg" title="Vallieres_1970" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Pierre Vallières, Montreal, 1970 
+</div>
