@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Zotero for Writing
-description:
+description: Workshop for Stanford's Hume Center for Writing and Speaking
 img: assets/img/zotero.png
 importance: 2
 category: workshops
