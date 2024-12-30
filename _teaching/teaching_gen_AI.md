@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teaching in the Age of Generative AI
-description:
+description: Workshop funded by Stanford’s Center for Teaching and Learning
 img: assets/img/teaching_AI.png
 importance: 1
 category: workshops
