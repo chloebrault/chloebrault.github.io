@@ -39,8 +39,7 @@ published: true
   Mellon Sawyer Seminar, Center for Spatial and Textual Analysis, Stanford University (Stanford, California)
 
 - **Where is the World for Quebec? (February 2024)**  
-  Literary Lab Meeting, Stanford University (Stanford, California)  
-  Brief overview of the talk or key takeaways.
+  Literary Lab Meeting, Stanford University (Stanford, California)
 
 - **Belatedly Canceled (May 2023)**  
   Center for Spatial and Textual Analysis, Stanford University (Stanford, California)  
