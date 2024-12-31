@@ -8,11 +8,11 @@ category: digital humanities
 related_publications: false
 ---
 
-We compiled, counted, characterized, and visualized claims to globality across texts published in 970 leftist magazines issues published in Montreal from the mid-1960s to the mid-1970s, including _Revue Parti Pris_, _Cité Libre_, and _Québec-presse_. We prototyped the project on the 40 existing issues of _Revue Parti Pris_, iteratively experimenting with named entity recognition and topic modeling.
+We compiled, counted, characterized, and visualized claims to globality across texts published in 970 issues of indepedent magazines published in Montreal from the mid-1960s to the early 2000s, including _Revue Parti Pris_, _Cité Libre_, and _Québec-presse_. We prototyped the project on the 40 existing issues of _Revue Parti Pris_, iteratively experimenting with named entity recognition and topic modeling.
 
 ## Introduction
 
-Where in the world for Quebec? From the 1960s to the 1990s, some writers argued that Quebec was part of Latin America. One writer argued that the most northern pole of Latin America. Others compared Quebec to Vietnam. Jean-Daniel Lafond imagined Quebec as being Caribbean. He and others imagined Montreal being an island in the Caribbean Sea and the counterpart to Martinique.
+Where in the world for Quebec? From the 1960s to the 1990s, writers like Jacques Berque argued that Quebec was the most northern pole of Latin America. Pierre Vallières and others compared Quebec to Vietnam. Jean-Daniel Lafond imagined Quebec as being Caribbean. He and others imagined Montreal being an island in the Caribbean Sea and the counterpart to Martinique.
 
 “It could very well be that this long-lost kinship is inscribed in an ancient miscegenation and in a clandestine creoleness that secretly unites the North and the South of the other America, of which only a few traces remain that only rare geographers can read and some signs that only poets still know how to decipher. So the old maps of the 17th century used to say: ‘South of Anticosti begins the Caribbean Sea…” (Jean-Daniel Lafond, _La Manière n_gre ou Aimé Césaire, chemin faisant_, 1993, pp 13, my translation)
 
@@ -29,9 +29,9 @@ Anticosti is an island in the North Atlantic Ocean, and the Caribbean Sea is a l
 
 ## Questions
 
-What can I say about "South of Anticosti begins the Caribbean Sea…"? How can I characterize this claim? Its a claim for a relationship between two places. Its also strictly untrue as a geographic claim in the most colloquial definition of geographic. How is the claim still productive if untrue?
+What can we say about "South of Anticosti begins the Caribbean Sea…"? How can we characterize this claim? Its a claim for a relationship between two places. Its also strictly untrue as a geographic claim in the most colloquial definition of geographic. How is the claim still productive if untrue?
 
-I use named entity recognition (NER) and topic modeling to characterize the relationship established in the claims like "South of Anticosti begins the Caribbean Sea…" by scaling out to similar relationship between two places. In many cases, one of the two places if Quebec, or a place considered a part of Quebec, or places that contain Quebec, like North America. But the corpus also surfaced relationships between two places neither of which was Quebec.
+We used named entity recognition (NER) and topic modeling to characterize the relationship established in the claims like "South of Anticosti begins the Caribbean Sea…" by scaling out to similar relationship between two places. In many cases, one of the two places if Quebec, or a place considered a part of Quebec, or places that contain Quebec, like North America. But the corpus also surfaced relationships between two places neither of which was Quebec.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -44,10 +44,10 @@ I use named entity recognition (NER) and topic modeling to characterize the rela
 
 ## Corpus
 
-I built a corpus of texts published in _Revue Parti Pris_, a Montreal-based leftist magazine that
-published political and cultural commentary from 1963 to 1968. I used the scraper coded by
+We built a corpus of texts published in _Revue Parti Pris_, a Montreal-based leftist magazine that
+published political and cultural commentary from 1963 to 1968. We used the scraper coded by
 Quinn Dombrowski for Quebec’s National Library and Archives’ to aquire the complete print
-production for Revue Parti Pris. I have just over 130,000 words accross 41 text files.
+production for Revue Parti Pris. We have just over 130,000 words accross 41 text files for the prototyped project. We have 
 
 ONE SCREENSHOT FROM THE NATIONAL LIBRARY PAGE
 SOME STUFF ABOUT THE LIBRARY AND COLLECTION
