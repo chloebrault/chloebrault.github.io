@@ -14,7 +14,9 @@ published: true
 
 - **The Place and Use of Data (2024)**  
   _Arcade: The Humanities in the World_, Stanford Humanities Center
+
 "Brault examines the promise of data as the opportunity to examine methods, to do something new and to vary methods, to scale claims and the type and amount of evidence presented to substantiate them, and to deepen and complicate arguments."
+  
    [Access online](https://shc.stanford.edu/arcade/interventions/places-and-uses-data)
 
 ---
