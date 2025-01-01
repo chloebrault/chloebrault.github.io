@@ -12,7 +12,7 @@ We compiled, counted, characterized, and visualized claims to globality across t
 
 ## Introduction
 
-Where isn the world for Quebec? From the 1960s to the 1990s, writers like Jacques Berque argued that Quebec was the most northern pole of Latin America. Pierre Vallières and others compared Quebec to Vietnam. Jean-Daniel Lafond imagined Quebec as being Caribbean. He and others imagined Montreal being an island in the Caribbean Sea and the counterpart to Martinique.
+Where is the world for Quebec? From the 1960s to the 1990s, writers like Jacques Berque argued that Quebec was the most northern pole of Latin America. Pierre Vallières and others compared Quebec to Vietnam. Jean-Daniel Lafond imagined Quebec as being Caribbean. He and others imagined Montreal being an island in the Caribbean Sea and the counterpart to Martinique.
 
 “It could very well be that this long-lost kinship is inscribed in an ancient miscegenation and in a clandestine creoleness that secretly unites the North and the South of the other America, of which only a few traces remain that only rare geographers can read and some signs that only poets still know how to decipher. So the old maps of the 17th century used to say: ‘South of Anticosti begins the Caribbean Sea…”[ˆfn1].
 
