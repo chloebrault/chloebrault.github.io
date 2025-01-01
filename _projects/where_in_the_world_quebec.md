@@ -26,45 +26,90 @@ Where is the world for Quebec? From the 1960s to the 1990s, writers like Jacques
    Visualization produced at https://www.meridianoutpost.com/resources/etools/calculators/calculator-latitude-longitude-distance.php?
 </div>
 
+
 Anticosti is an island in the North Atlantic Ocean, and the Caribbean Sea is a large oceanic sea, also located in the basin of the North Atlantic, but at a very different latitude (approx. -62.96 and 15.33).
 
 ## Questions
 
-What can we say about "South of Anticosti begins the Caribbean Sea…"? How can we characterize this claim? It is a claim for a relationship between two places. It is also strictly untrue as a geographic claim in the most colloquial definition of geographic. How is the claim still productive if untrue?
+What can we say about “South of Anticosti begins the Caribbean Sea…”? How can we characterize this claim? It is a claim for a relationship between two places. It is also strictly untrue as a geographic claim in the most colloquial definition of geographic. How is the claim still productive if untrue?
 
-We used named entity recognition (NER) and topic modeling to characterize the relationship established in the claims like "South of Anticosti begins the Caribbean Sea…" by scaling  to similar relationships between two places. In many cases, one of the two places is Quebec, or a place considered a part of Quebec, or places that contain Quebec, like North America. But the corpus also surfaced relationships between two places, neither of which was Quebec.
+We used named entity recognition (NER) and topic modeling to characterize the relationship established in the claims like "South of Anticosti begins the Caribbean Sea…" by scaling to similar relationships between two places. In many cases, one of the two places is Quebec, or a place considered a part of Quebec, or places that contain Quebec, like North America. But the corpus also surfaced relationships between two places, neither of which was Quebec.
 
 ## Corpus
 
-We built a corpus of texts published in _Revue Parti Pris_, a Montreal-based leftist magazine that published political and cultural commentary from 1963 to 1968. We used the scraper coded by Quinn Dombrowski for Quebec’s National Library and Archives’ to acquire the complete print production for Revue Parti Pris. We had  about  130,000 words across 41 text files for the prototyped project. Later, we expanded the corpus to about 26 million words across 970 text files. This text acquisition was made possible by Em Ho, who adapted Dombrowski’s scraper. 
+We built a corpus of texts published in _Revue Parti Pris_, a Montreal-based leftist magazine that published political and cultural commentary from 1963 to 1968. We used the scraper coded by Quinn Dombrowski for Quebec’s National Library and Archives’ to acquire the complete print production for Revue Parti Pris. We had  about  130,000 words across 41 text files for the prototyped project. Later, we expanded the corpus to about 26 million words across 970 text files. This text acquisition was made possible by Em Ho, who [adapted](https://colab.research.google.com/drive/1nrfxZSo5kfcNdCSymh938AoCTa5y8VDU) Dombrowski’s scraper. 
 
-ONE SCREENSHOT FROM THE NATIONAL LIBRARY PAGE
 
-ONE SCREENSHOT FROM ONE OF THE WORKS
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/BANQ_scraper.png" title="BANQ_scraper" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+</div>
+
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/BANQ_scraper_item1.png" title="BANQ_scraper_item1" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+</div>
 
 ## Methods
 
-Merve Tekgürler then helped me run Flair, a French model for named entity recognition (NER), and topic modeling using BERTopic. 
+Merve Tekgürler then helped me run [Flair](https://huggingface.co/flair/ner-french), a French model for named entity recognition (NER), and topic modeling using BERTopic. 
 
-For NER, we extracted the plain text using ABBYY FineReader, then we split the collated texts into 500-word segments. We then ran the model on a loop for the 500-word segments. We saved all entities, including persons, organizations, locations, and miscellaneous, and then we saved only the locations separately. Flair outputs a prediction accuracy, and we limited the locations to those that were 70 % predicted as locations and more. We then normalized these named location entities by turning everything to title case, and getting rid of those that were just one letter. After that we consolidated our named location entities as unique place names, and summed the counts of those place names. We then used a Wikidata plug-in for Google Drive in its French setting to associate placenames to Wikidata IDs, to get descriptions of the place names, and to generate coordinates with an extension for Google Maps. We discarded the entities without Wikidata IDs.
+For NER, we extracted the plain text using ABBYY FineReader, then we split the collated texts into 500-word segments. [We then ran the model on a loop](https://colab.research.google.com/drive/15hYe3wimKr5bmZndOOT7rQwRnH2jAs-q) for the 500-word segments. We saved all entities, including persons, organizations, locations, and miscellaneous, and then we saved only the locations separately. Flair outputs a prediction accuracy, and we limited the locations to those that were 70 % predicted as locations and more. We then normalized these named location entities by turning everything to title case, and getting rid of those that were just one letter. After that we consolidated our named location entities as unique place names, and summed the counts of those place names. We then used a Wikidata plug-in for Google Drive in its French setting to associate placenames to Wikidata IDs, to get descriptions of the place names, and to generate coordinates with an extension for Google Maps. We discarded the entities without Wikidata IDs.
 
 Tekgürler took a second approach using the Wikidata IDs and a custom app script that they wrote after we detected irregularities, which was the most time consuming part of this whole proof of concept. We ended up generating more coordinates in the second pass than the first. We then consolidated coordinates in the same rows that were matching. If there was no coordinate in the first pass, we defaulted to the second. If we had coordinates from both the first pass and the second, we still defaulted to the second. After all this, we eliminated all rows without coordinates, which resulted in 700 unique named location entities, down from 1,700 before the data clean up and consolidation.
 
-ONE SCREENSHOT OF THE GOOGLE SHEET
 
-Using Named Entity Recognition, we generated 700 unique named location entities, which included cities, countries, continents, villages, plazas, parks, streets, rivers, train stations, universities, and geological descriptors. We wanted to exclude Quebec and locations situated in Quebec. By logical extension, we also excluded named location entities that include Quebec, like Canada, North America, and Americas, but not South America and Latin America. We did not want to distract from the geographical range represented in the corpus, especially with scaled visualizations. For now, we are focusing on Quebec in relation to other named location entities with the assumption that Quebec is the node for each of these discrete relationships. Hence, Where is the world for Quebec?
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/NER&WikiDataID.png" title="NER&WikiDataID" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+</div>
 
-For Topic Modeling, we had already extracted the plain text using ABBY Fine Reader, but then we added paragraph breaks, and adjusted for false paragraph breaks using a rule-based code that joined any lower case word to the previous paragraph. We ended up with 22,000 segments  and then ran BERTopic on these, which produced 282 topics. We then extracted two types of information from those topics. The first type of information was the most frequently associated words in each topic, retaining the probability of those topics, and generating both word clouds and a CVS. The second type of information was association of topic to individual paragraphs, after we mapped to each paragraph the topic that is most associated with that paragraph, generating the reverse/ inverse probabilities. Last, we filtered out the paragraphs with topic minus one in the CSV, and ended up with about 700 paragraphs that have meaningful topics. I did a lot of cleaning for the NER, specifically to exclude mentions of Quebec, but this was not warranted for the Topic Modeling.
 
-ADD WORD CLOUD with subjects
+Using named entity recognition, we generated 700 unique named location entities, which included cities, countries, continents, villages, plazas, parks, streets, rivers, train stations, universities, and geological descriptors. We wanted to exclude Quebec and locations situated in Quebec. By logical extension, we also excluded named location entities that include Quebec, like Canada, North America, and Americas, but not South America and Latin America. We did not want to distract from the geographical range represented in the corpus, especially with scaled visualizations. For now, we are focusing on Quebec in relation to other named location entities with the assumption that Quebec is the node for each of these discrete relationships. Hence, Where is the world for Quebec?
 
-Of 282 topics, we found relationships between unique place names visualized by the model. Some of these unique place names were in relation to Quebec, other unique place names were related to more unique place names. We also found unique place names in relationship with and topic clusters that had nothing to do with location: like war, independence, miliary, etc., which confirms by guess that the most frequent topics in this corpus would relate to sovereignty, imperialism, and militarization even without the specific most frequent topics output. We chose to show you word clouds that had two or more place names. When we look at these word clouds, we are wondering if these place names could be simple placeholders that could be swapped out for others. 
+For topic modeling, we had already extracted the plain text using ABBY FineReader, but then we added paragraph breaks, and adjusted for false paragraph breaks using a rule-based code that joined any lower case word to the previous paragraph. We ended up with 22,000 segments  and then ran BERTopic on these, which produced 282 topics. We then extracted two types of information from those topics. The first type of information was the most frequently associated words in each topic, retaining the probability of those topics, and generating both word clouds and a CVS. The second type of information was association of topic to individual paragraphs, after we mapped to each paragraph the topic that is most associated with that paragraph, generating the inverse probabilities. Last, we filtered out the paragraphs with topic minus one in the CSV, and ended up with about 700 paragraphs that have meaningful topics. I did a lot of cleaning for the NER, specifically to exclude mentions of Quebec, but this was not warranted for the topic modeling.
 
-ADD WORD CLOUD with place names
+Of 282 topics, we found relationships between unique place names visualized by the model. Some of these unique place names were in relation to Quebec, other unique place names were related to more unique place names. We also found unique place names in relationship with and topic clusters that had nothing to do with location: like war, independence, miliary, etc., which confirms by guess that the most frequent topics in this corpus would relate to sovereignty, imperialism, and militarization even without the specific most frequent topics output. We chose to highlight word clouds that had two or more place names. When we look at these word clouds, we are wondering if these place names could be simple placeholders that could be swapped out for others. 
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/assets/img/wordcloud1.png" title="wordcloud1" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/assets/img/wordcloud2.png" title="wordcloud2" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+</div>
 
 ## Results and Analysis
 
-ADD FIRST MAP
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/chloe_ucla_country_more_than_20.png" title="chloe_ucla_country_more_than_20" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+</div>
+
 
 In this first map, we see unique place names visualized by a dot. I have to say that the geographic range surprised me. I actually was expecting more representation in Asia and Africa, probably because those placenames impressed me the most when I was reading without computational tools. 
 
@@ -76,6 +121,7 @@ In this first map, we see unique place names visualized by a dot. I have to say 
 <div class="caption">
     Quebec heat map
 </div>
+
 
 In this second map, we see scaled place names, with frequency of place names represented by colors. The place names that ranked highest in frequency were the United States, France, Ottawa, Paris, Cuba, and Vietnam. 
 
@@ -98,13 +144,22 @@ What can I say about ‘South of Anticosti begins the Caribbean Sea…’ after 
 With NER, I noted historical place names like Lower Canada, which was the British colonial title for present-day southern Quebec, Labrador, and Newfoundland, and Upper Canada, which was the British colonial title for present-day southern Ontario. I manually eliminated Lower Canada for the Quebec coverage, but kept Upper Canada for its lack of Quebec coverage. Other historical place names include Upper Volta, present-day Burkina Faso, which was a colony of French West Africa and Afrique Noire, literally Black Africa, the French colonial designation for sub-Saharan Africa. With historical place names, I found that the writers at _Revue Parti Pris_ imagined Quebec not only in space as I had initially observed, but also in space in relation to time. Lower-Canada is only coherent in space in specific historical context, and the same goes for Afrique Noire. Such historical place names bring colonialism to the fore. With colonialism as a filter for the larger corpus, I could characterize ‘South of Anticosti begins the Caribbean Sea…’ as not only untrue in the most colloquial definition of a geographic claim, but untrue and colonial. At some point I started thinking of ‘South of Anticosti begins the Caribbean Sea…’ as a colonial hallucination. I also found things in this proof of concept that I otherwise would not have necessarily looked for, starting with a new reference to Anticosti Island. But Anticosti Island did come up once in _Revue Parti Pris_.
 
 “Beyond Anticosti, the wind becomes mild, Cartier smells fresh water, probably grimaces, because on the way to the Orient, to avoid deviating, it is necessary to keep one's rudder in the salty water. He therefore looks for another passage, surveys the coasts, doesn't find one and continues, leaving the imagined archipelago to enter a vast continent through the mouth of a new Orinoco. It seems to me that this is a rather important moment in history, the first glimpse of North America… […] In the absence of China, he is looking for Peru since he has discovered
-another America”(Jacques Ferron, La Brèche, 163122_1-1964-01.txt).
+another America”(Jacques Ferron, La Brèche).
 
-ADD ORINOCO IMAGE
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/assets/img/Orinoco.png" title="Orinoco" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Visualization produced at https://www.meridianoutpost.com/resources/etools/calculators/calculator-latitude-longitude-distance.php?
+</div>
+
 
 In this explicitly colonial imaginary, Orinoco is a placeholder for the gulf of Saint Lawrence, and Peru is a placeholder for China. And elsewhere in that same text, Ferron imagines how sixteenth-century colonials would have first apprehended the New World:
 
-“We did not think of a continental facade but rather the ornament of some large islands ahead of an immense archipelago where the prestigious country described by Marco Polo would have been located” (ref). 
+“We did not think of a continental facade but rather the ornament of some large islands ahead of an immense archipelago where the prestigious country described by Marco Polo would have been located” (Ferron). 
 
 Just as Jacques Cartier is made equivalent to Marco Polo, the territory colonially known as New France, then present-day New France could be a placeholder for China. These are the Islands that Repeat Themselves.
 
@@ -113,7 +168,7 @@ I initially included Venice as one more set of islands in this corpus. Venice’
 To conclude, I briefly gloss the passage from a text titled “Beatniks, Vietniks, Québecniks : gauchisme à gogo?” by Jan Depocas, where Venezia, Piazza San Marco, and Palazzo Ducale appear together, as further evidence the geographic expanse represented in my corpus is in fact placeholders cluttering together.
 
 “It is not in New York, nor even somewhere north of New York, northeast of Ottawa and... at the far west of China, nor even in Venice West, USA, but in... Venice, I admit, in Venice where I was returning from Greece and Istanbul. It is in Venice, the disused crossroads of the East and the West, that I could only know, [...] that I, a Québécois, was from there: from the last white colony of the Far Occident [...] by browsing, in Piazza San Marco, under the gothic arcade of the white Palazzo Ducale, where a colorful little book fair was bustling that evening — by browsing, for
-the first time, from Marx [...] ‘Venice la Rouge’ …” (ref).
+the first time, from Marx [...] ‘Venice la Rouge’ …” (Depocas).
 
 Here we get a broad geographic expanse that is only coherent in space in specific historical and racialized context. We get East meeting West, that historic binary with China and Venice Beach, California, as the antipodes, but American, Vietnamese and Quebecois youth juxtaposed in the same enumeration in the title. We get a description of a white youth learning of his colonial subjecthood far from home in a turn of phrase that I can only characterize as colonial hallucination : “the last white colony of the Far Occident.”
 
@@ -122,4 +177,3 @@ Here we get a broad geographic expanse that is only coherent in space in specifi
 
 > Acknowledgements
 > Thank you to Merve Tekgürler for making this project prototype possible in Fall 2023. Thank you to Quinn Dombrowski for initially coding the scraper in Winter 2023. Thank you to Em Ho for improving on Dombrowski's scraper and growing the corpus  in Summer 2024. My collaboration with Ho was made possible by the Stanford School of Humanities & Sciences through a Graduate Research Opportunity Grant.
-
