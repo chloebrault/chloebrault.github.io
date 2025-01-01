@@ -16,7 +16,6 @@ Where is the world for Quebec? From the 1960s to the 1990s, writers like Jacques
 
 “It could very well be that this long-lost kinship is inscribed in an ancient miscegenation and in a clandestine creoleness that secretly unites the North and the South of the other America, of which only a few traces remain that only rare geographers can read and some signs that only poets still know how to decipher. So the old maps of the 17th century used to say: ‘South of Anticosti begins the Caribbean Sea…”[^fn1].
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/anticosti_carribean_sea.png" title="lafond" class="img-fluid rounded z-depth-1" %}
@@ -36,8 +35,7 @@ We used named entity recognition (NER) and topic modeling to characterize the re
 
 ## Corpus
 
-We built a corpus of texts published in _Revue Parti Pris_, a Montreal-based leftist magazine that published political and cultural commentary from 1963 to 1968. We used the scraper coded by Quinn Dombrowski for Quebec’s National Library and Archives’ to acquire the complete print production for Revue Parti Pris. We had  about  130,000 words across 41 text files for the prototyped project. Later, we expanded the corpus to about 26 million words across 970 text files. This text acquisition was made possible by Em Ho, who [adapted](https://colab.research.google.com/drive/1nrfxZSo5kfcNdCSymh938AoCTa5y8VDU) Dombrowski’s scraper.
-
+We built a corpus of texts published in _Revue Parti Pris_, a Montreal-based leftist magazine that published political and cultural commentary from 1963 to 1968. We used the scraper coded by Quinn Dombrowski for Quebec’s National Library and Archives’ to acquire the complete print production for Revue Parti Pris. We had about 130,000 words across 41 text files for the prototyped project. Later, we expanded the corpus to about 26 million words across 970 text files. This text acquisition was made possible by Em Ho, who [adapted](https://colab.research.google.com/drive/1nrfxZSo5kfcNdCSymh938AoCTa5y8VDU) Dombrowski’s scraper.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -46,8 +44,6 @@ We built a corpus of texts published in _Revue Parti Pris_, a Montreal-based lef
 </div>
 <div class="caption">
 </div>
-
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -65,7 +61,6 @@ For NER, we extracted the plain text using ABBYY FineReader, then we split the c
 
 Tekgürler took a second approach using the Wikidata IDs and a custom app script that they wrote after we detected irregularities, which was the most time consuming part of this whole proof of concept. We ended up generating more coordinates in the second pass than the first. We then consolidated coordinates in the same rows that were matching. If there was no coordinate in the first pass, we defaulted to the second. If we had coordinates from both the first pass and the second, we still defaulted to the second. After all this, we eliminated all rows without coordinates, which resulted in 700 unique named location entities, down from 1,700 before the data clean up and consolidation.
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/NER&WikiDataID.png" title="NER&WikiDataID" class="img-fluid rounded z-depth-1" %}
@@ -76,7 +71,7 @@ Tekgürler took a second approach using the Wikidata IDs and a custom app script
 
 Using named entity recognition, we generated 700 unique named location entities, which included cities, countries, continents, villages, plazas, parks, streets, rivers, train stations, universities, and geological descriptors. We wanted to exclude Quebec and locations situated in Quebec. By logical extension, we also excluded named location entities that include Quebec, like Canada, North America, and Americas, but not South America and Latin America. We did not want to distract from the geographical range represented in the corpus, especially with scaled visualizations. For now, we are focusing on Quebec in relation to other named location entities with the assumption that Quebec is the node for each of these discrete relationships. Hence, Where is the world for Quebec?
 
-For topic modeling, we had already extracted the plain text using ABBY FineReader, but then we added paragraph breaks, and adjusted for false paragraph breaks using a rule-based code that joined any lower case word to the previous paragraph. We ended up with 22,000 segments  and then ran BERTopic on these, which produced 282 topics. We then extracted two types of information from those topics. The first type of information was the most frequently associated words in each topic, retaining the probability of those topics, and generating both word clouds and a CVS. The second type of information was association of topic to individual paragraphs, after we mapped to each paragraph the topic that is most associated with that paragraph, generating the inverse probabilities. Last, we filtered out the paragraphs with topic minus one in the CSV, and ended up with about 700 paragraphs that have meaningful topics. I did a lot of cleaning for the NER, specifically to exclude mentions of Quebec, but this was not warranted for the topic modeling.
+For topic modeling, we had already extracted the plain text using ABBY FineReader, but then we added paragraph breaks, and adjusted for false paragraph breaks using a rule-based code that joined any lower case word to the previous paragraph. We ended up with 22,000 segments and then ran BERTopic on these, which produced 282 topics. We then extracted two types of information from those topics. The first type of information was the most frequently associated words in each topic, retaining the probability of those topics, and generating both word clouds and a CVS. The second type of information was association of topic to individual paragraphs, after we mapped to each paragraph the topic that is most associated with that paragraph, generating the inverse probabilities. Last, we filtered out the paragraphs with topic minus one in the CSV, and ended up with about 700 paragraphs that have meaningful topics. I did a lot of cleaning for the NER, specifically to exclude mentions of Quebec, but this was not warranted for the topic modeling.
 
 Of 282 topics, we found relationships between unique place names visualized by the model. Some of these unique place names were in relation to Quebec, other unique place names were related to more unique place names. We also found unique place names in relationship with and topic clusters that had nothing to do with location: like war, independence, miliary, etc., which confirms by guess that the most frequent topics in this corpus would relate to sovereignty, imperialism, and militarization even without the specific most frequent topics output. We chose to highlight word clouds that had two or more place names. When we look at these word clouds, we are wondering if these place names could be simple placeholders that could be swapped out for others.
 
@@ -139,7 +134,6 @@ With NER, I noted historical place names like Lower Canada, which was the Britis
 
 “Beyond Anticosti, the wind becomes mild, Cartier smells fresh water, probably grimaces, because on the way to the Orient, to avoid deviating, it is necessary to keep one's rudder in the salty water. He therefore looks for another passage, surveys the coasts, doesn't find one and continues, leaving the imagined archipelago to enter a vast continent through the mouth of a new Orinoco. It seems to me that this is a rather important moment in history, the first glimpse of North America… […] In the absence of China, he is looking for Peru since he has discovered another America.”[^fn5]
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Orinoco.png" title="Orinoco" class="img-fluid rounded z-depth-1" %}
@@ -172,4 +166,4 @@ Here we get a broad geographic expanse that is only coherent in space in specifi
 [^fn7]: Depocas reference
 
 > Acknowledgements
-> Thank you to Merve Tekgürler for making this project prototype possible in Fall 2023. Thank you to Quinn Dombrowski for initially coding the scraper in Winter 2023. Thank you to Em Ho for improving on Dombrowski's scraper and growing the corpus  in Summer 2024. My collaboration with Ho was made possible by the Stanford School of Humanities & Sciences through a Graduate Research Opportunity Grant.
+> Thank you to Merve Tekgürler for making this project prototype possible in Fall 2023. Thank you to Quinn Dombrowski for initially coding the scraper in Winter 2023. Thank you to Em Ho for improving on Dombrowski's scraper and growing the corpus in Summer 2024. My collaboration with Ho was made possible by the Stanford School of Humanities & Sciences through a Graduate Research Opportunity Grant.

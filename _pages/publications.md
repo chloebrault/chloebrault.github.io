@@ -16,8 +16,8 @@ published: true
   _Arcade: The Humanities in the World_, Stanford Humanities Center
 
 "Brault examines the promise of data as the opportunity to examine methods, to do something new and to vary methods, to scale claims and the type and amount of evidence presented to substantiate them, and to deepen and complicate arguments."
-  
-   [Access online](https://shc.stanford.edu/arcade/interventions/places-and-uses-data)
+
+[Access online](https://shc.stanford.edu/arcade/interventions/places-and-uses-data)
 
 ---
 
@@ -28,7 +28,6 @@ published: true
 
 - **_White \[N-Words\] of America_ in the Press (November 2024)**  
   The Association for Computers and the Humanities Conference (Online)
-  
 - **Normative Reading (March 2024)**  
   American Comparative Literature Association Annual Meeting (Montreal, Canada)
 
@@ -39,7 +38,7 @@ published: true
 
 ## Campus Talks, selected
 
- - **The Places and Uses of Data (May 2024)**  
+- **The Places and Uses of Data (May 2024)**  
   Mellon Sawyer Seminar, Center for Spatial and Textual Analysis, Stanford University (Stanford, California)
 
 - **Where is the World for Quebec? (February 2024)**  
