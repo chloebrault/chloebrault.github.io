@@ -49,13 +49,6 @@ published political and cultural commentary from 1963 to 1968. We used the scrap
 Quinn Dombrowski for Quebec’s National Library and Archives’ to aquire the complete print
 production for Revue Parti Pris. We have just over 130,000 words accross 41 text files for the prototyped project. We have 
 
-ONE SCREENSHOT FROM THE NATIONAL LIBRARY PAGE
-SOME STUFF ABOUT THE LIBRARY AND COLLECTION
-SOME STUFF ABOUT SCRAPING
-
-ONE SCREENSHOT FROM ONE OF THE WORKS
-SOME DESCRIPTION OF THE WORKS -> WHO, WHAT, WHEN, WHERE
-
 ## Methods
 
 Merve Tekgürler then helped me run huggingface for named entity recognition (NER), and topic modeling using BERTopic. As I understand it, both use transformer architecture. BERTopic functionally differs from Mallet, coded in java, in that clusters documents by content and then distinguishes content in each cluster. One key difference in the BERTopic model as opposed to Mallet is that it assumes each document belongs to a single topic, which is useful when looking to identify a phenomenon that isn’t necessarily going to be the dominant theme of the corpus. Ultimately, named entities broadly and location entities specifically are not the dominant themes of the corpus. If I had to guess, I would say topics relating to soveriegnty, imperlialism, and miliarization would surface as most frequent topics.
@@ -66,22 +59,11 @@ Tekgürler took a second approach using the Wikidata IDs and a custom app script
 
 Using Named Entity Recognition, we generated 700 unique named location entities, which included cities, countries, continents, village, plazas, parks, streets, rivers, train stations, universities, geological descriptors. I wanted to exclude Quebec and locations situated in Quebec. By logical extension, I also excluded named location entities that include Quebec, like Canada, North America, and Americas, but not South America and Latin America. I did not want to distract from the geographical range represented in the corpus, especially with scaled visualizations. For now, I am focusing on Quebec in relationship to other named location entities with the assumption that Quebec is the node for each of these discrete relationships. Hence, Where is the world for Quebec?
 
-CODE SAMPLE MAYBE EVEN LINK TO THE JUPYTER NOTEBOOK
-
-ONE SCREENSHOT OF THE GOOGLE SHEET
-
-MAP?
-
 ## Results and Analysis
-
-SOME IMAGE?
-WHY ARE YOUR FINDINGS IMPORTANT?
-
-WHAT DOES IT SAY ABOUT DIGITAL METHODS IN THE HUMANITIES
 
 ## Conclusions
 
-SOME REMARKS ABOUT MULTILINGUAL DH, WORKING WITH FRENHC ETC
+
 
 > Acknowledgements
 > Thank you to Merve Tekgürler for making this project prototype possible in Fall 2023. Thank you to Quinn Dombrowski for initially coding the scraper in Winter 2023. Thank you to Em Ho for improving on Dombrowski's scraper in Summer 2024, and grow the corpus from 40 magazine issues to 970. My collaboration with Ho was made possible by the Stanford School of Humanities & Sciences through a Graduate Research Opportunity Grant.
