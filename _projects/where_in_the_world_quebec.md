@@ -26,8 +26,7 @@ Where is the world for Quebec? From the 1960s to the 1990s, writers like Jacques
    Visualization produced at https://www.meridianoutpost.com/resources/etools/calculators/calculator-latitude-longitude-distance.php?
 </div>
 
-
-Anticosti is an island in the North Atlantic Ocean, and the Caribbean Sea is a large oceanic sea, also located in the basin of the North Atlantic, but at a very different latitude (approx. -62.96 and 15.33).
+Anticosti is an island in the North Atlantic Ocean, and the Caribbean Sea is a large oceanic sea, also located in the basin of the North Atlantic, but at a very different latitude. The geographical center of the Anticosti Island is at 49°32′N and 63°14′W. On the other hand, the northernmost point of the Carribean Sea, the Windward Channel between the islands of Cuba and Hispaniola, has its center located at 20°N and 74°W.
 
 ## Questions
 
