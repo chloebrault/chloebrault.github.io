@@ -85,7 +85,7 @@ Of 282 topics, we found relationships between unique place names visualized by t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assets/img/wordcloud1.png" title="wordcloud1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/wordcloud1.png" title="wordcloud1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -93,7 +93,7 @@ Of 282 topics, we found relationships between unique place names visualized by t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assets/img/wordcloud2.png" title="wordcloud2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/wordcloud2.png" title="wordcloud2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -149,7 +149,7 @@ another America”(Jacques Ferron, La Brèche).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assets/img/Orinoco.png" title="Orinoco" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Orinoco.png" title="Orinoco" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
