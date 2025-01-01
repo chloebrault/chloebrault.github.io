@@ -14,7 +14,7 @@ We compiled, counted, characterized, and visualized claims to globality across t
 
 Where is the world for Quebec? From the 1960s to the 1990s, writers like Jacques Berque argued that Quebec was the most northern pole of Latin America. Pierre Vallières and others compared Quebec to Vietnam. Jean-Daniel Lafond imagined Quebec as being Caribbean. He and others imagined Montreal being an island in the Caribbean Sea and the counterpart to Martinique.
 
-“It could very well be that this long-lost kinship is inscribed in an ancient miscegenation and in a clandestine creoleness that secretly unites the North and the South of the other America, of which only a few traces remain that only rare geographers can read and some signs that only poets still know how to decipher. So the old maps of the 17th century used to say: ‘South of Anticosti begins the Caribbean Sea…”[ˆfn1].
+“It could very well be that this long-lost kinship is inscribed in an ancient miscegenation and in a clandestine creoleness that secretly unites the North and the South of the other America, of which only a few traces remain that only rare geographers can read and some signs that only poets still know how to decipher. So the old maps of the 17th century used to say: ‘South of Anticosti begins the Caribbean Sea…”[^fn1].
 
 
 <div class="row">
@@ -172,7 +172,7 @@ the first time, from Marx [...] ‘Venice la Rouge’ …” (Depocas).
 
 Here we get a broad geographic expanse that is only coherent in space in specific historical and racialized context. We get East meeting West, that historic binary with China and Venice Beach, California, as the antipodes, but American, Vietnamese and Quebecois youth juxtaposed in the same enumeration in the title. We get a description of a white youth learning of his colonial subjecthood far from home in a turn of phrase that I can only characterize as colonial hallucination : “the last white colony of the Far Occident.”
 
-[ˆfn1]: Jean-Daniel Lafond, _La Manière n_gre ou Aimé Césaire, chemin faisant_, 1993, pp 13, my translation.
+[^fn1]: Jean-Daniel Lafond, _La Manière n_gre ou Aimé Césaire, chemin faisant_, 1993, pp 13, my translation.
 
 
 > Acknowledgements
