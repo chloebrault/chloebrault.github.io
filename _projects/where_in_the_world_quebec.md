@@ -104,7 +104,7 @@ Of 282 topics, we found relationships between unique place names visualized by t
     </div>
 </div>
 <div class="caption">
-    Map made my Merve Tekgürler using ArcGIS Online.
+    Map made by Merve Tekgürler using ArcGIS Online.
 </div>
 
 In this first map, we see unique place names visualized by dots. I have to say that the geographic range surprised me. I actually was expecting more representation in Asia and Africa, probably because those placenames impressed me the most when I was reading without computational tools.
@@ -115,7 +115,7 @@ In this first map, we see unique place names visualized by dots. I have to say t
     </div>
 </div>
 <div class="caption">
-    Map made my Merve Tekgürler using ArcGIS Online. 
+    Map made by Merve Tekgürler using ArcGIS Online. 
 </div>
 
 In this second map, we see scaled place names, with the highest frequency of place names represented by yellow, then orange, red, and the lowest frequencies represented by pink and purple. The country place names that ranked highest in frequency were the United States, France, Canada, Cuba, and Vietnam. The city place names that ranked the highest were Ottawa and Paris.
