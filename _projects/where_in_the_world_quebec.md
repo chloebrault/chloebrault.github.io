@@ -170,4 +170,5 @@ Here we get a broad geographic expanse that is only coherent in space in specifi
 [^fn7]: Depocas, “Beatniks, Vietniks, Québecniks : gauchisme à gogo?” _Revue Parti Pris_, vol. 3, no. 9, April 1966, 12, my translation.
 
 > Acknowledgements
+> 
 > Thank you to Merve Tekgürler for making this project prototype possible in Fall 2023. Thank you to Quinn Dombrowski for initially coding the scraper in Winter 2023. Thank you to Em Ho for improving on Dombrowski's scraper and growing the corpus in Summer 2024. My collaboration with Ho was made possible by the Stanford School of Humanities & Sciences through a Graduate Research Opportunity Grant.
