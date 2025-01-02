@@ -22,7 +22,7 @@ Where is the world for Quebec? From the 1960s to the 1990s, writers like Jacques
     </div>
 </div>
 <div class="caption">
-   Visualization produced at https://www.meridianoutpost.com/resources/etools/calculators/calculator-latitude-longitude-distance.php?
+   Visualization produced with the Latitude/Longitude Distance Calculator by Meridian Outpost.
 </div>
 
 Anticosti is an island in the North Atlantic Ocean, and the Caribbean Sea is a large oceanic sea, also located in the basin of the North Atlantic, but at a very different latitude. The geographical center of the Anticosti Island is at 49°32′N and 63°14′W. On the other hand, the northernmost point of the Carribean Sea, the Windward Channel between the islands of Cuba and Hispaniola, has its center located at 20°N and 74°W.
@@ -43,6 +43,7 @@ We built a corpus of texts published in _Revue Parti Pris_, a Montreal-based lef
     </div>
 </div>
 <div class="caption">
+    Desktop view of Quebec's National Library and Archives online holdings, queried for independent magazines published between the mid 1960s and the early 2000s. 
 </div>
 
 <div class="row">
@@ -51,6 +52,7 @@ We built a corpus of texts published in _Revue Parti Pris_, a Montreal-based lef
     </div>
 </div>
 <div class="caption">
+    Desktop view of first item of the query.
 </div>
 
 ## Methods
@@ -67,6 +69,7 @@ Tekgürler took a second approach using the Wikidata IDs and a custom app script
     </div>
 </div>
 <div class="caption">
+   Data generated from scraped corpus, NER, and Wikidata pipeline
 </div>
 
 Using named entity recognition, we generated 700 unique named location entities, which included cities, countries, continents, villages, plazas, parks, streets, rivers, train stations, universities, and geological descriptors. We wanted to exclude Quebec and locations situated in Quebec. By logical extension, we also excluded named location entities that include Quebec, like Canada, North America, and Americas, but not South America and Latin America. We did not want to distract from the geographical range represented in the corpus, especially with scaled visualizations. For now, we are focusing on Quebec in relation to other named location entities with the assumption that Quebec is the node for each of these discrete relationships. Hence, Where is the world for Quebec?
@@ -81,6 +84,7 @@ Of 282 topics, we found relationships between unique place names visualized by t
     </div>
 </div>
 <div class="caption">
+    Topic model generated world cloud representing several Latin American countries. 
 </div>
 
 <div class="row">
@@ -89,6 +93,7 @@ Of 282 topics, we found relationships between unique place names visualized by t
     </div>
 </div>
 <div class="caption">
+     Topic model generated world cloud representing several Middle Eastern countries.
 </div>
 
 ## Results and Analysis
@@ -99,9 +104,10 @@ Of 282 topics, we found relationships between unique place names visualized by t
     </div>
 </div>
 <div class="caption">
+    Map made my Merve Tekgürler using Arc GIS.
 </div>
 
-In this first map, we see unique place names visualized by a dot. I have to say that the geographic range surprised me. I actually was expecting more representation in Asia and Africa, probably because those placenames impressed me the most when I was reading without computational tools.
+In this first map, we see unique place names visualized by dots. I have to say that the geographic range surprised me. I actually was expecting more representation in Asia and Africa, probably because those placenames impressed me the most when I was reading without computational tools.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -109,16 +115,14 @@ In this first map, we see unique place names visualized by a dot. I have to say 
     </div>
 </div>
 <div class="caption">
-    Quebec heat map
+    Map made my Merve Tekgürler using Arc GIS. 
 </div>
 
-In this second map, we see scaled place names, with frequency of place names represented by colors. The place names that ranked highest in frequency were the United States, France, Ottawa, Paris, Cuba, and Vietnam.
+In this second map, we see scaled place names, with the highest frequency of place names represented by yellow, then orange, red, and the lowest frequencies represented by pink and purple. The country place names that ranked highest in frequency were the United States, France, Canada, Cuba, and Vietnam. The city place names that ranked the highest were Ottawa and Paris.
 
 ## Analysis
 
-I initially called this project Islands that Repeat Themselves. The title was initially a nod to precisely the fact
-that I was not unconvinced that place names were not just placeholders. In other words, I guessed that place names outside of Quebec were placeholders for one another and for Quebec itself. I was not only thinking of Lafond’s fabulation in titling the paper, but of Antonio Benítez-Rojo’s 1989 book, The Repeating Island: The Caribbean and the Postmodern Perspective. Benítez-Rojo argues that the Caribbean is best understood as an iterative meta-archipelago,
-which constantly changes and reconfigures space in a way that defies linear time and geographic categorization. In Benítez-Rojo’s words, “an island that ‘repeats’ itself, unfolding and bifurcating “South of Anticosti begins the Caribbean Sea…” is an “unwarranted [simplification] until it reaches all the seas and lands of the earth, […] inspires multidisciplinary maps of unexpected designs.”[^fn2] We can certainly call the map that Lafond describes “multidisciplinary” and “of unexpected design.”
+I initially called this project Islands that Repeat Themselves. The title was initially a nod to precisely the fact that I was not unconvinced that place names were not just placeholders. In other words, I guessed that place names outside of Quebec were placeholders for one another and for Quebec itself. I was not only thinking of Lafond’s fabulation in titling the paper, but of Antonio Benítez-Rojo’s 1989 book, The Repeating Island: The Caribbean and the Postmodern Perspective. Benítez-Rojo argues that the Caribbean is best understood as an iterative meta-archipelago, which constantly changes and reconfigures space in a way that defies linear time and geographic categorization. In Benítez-Rojo’s words, “an island that ‘repeats’ itself, unfolding and bifurcating “South of Anticosti begins the Caribbean Sea…” is an “unwarranted [simplification] until it reaches all the seas and lands of the earth, […] inspires multidisciplinary maps of unexpected designs.”[^fn2] We can certainly call the map that Lafond describes “multidisciplinary” and “of unexpected design.”
 
 However, “South of Anticosti begins the Caribbean Sea…” is more than “multidisciplinary” and “of unexpected design.” I found Martin Lewis and Karen Wigen’s concept theorization of “meta-geography” useful for understanding how this is productively untrue. Lewis and Wigen define meta-geography as the large-scale “set of spatial structures through which people order their knowledge of the world.”[^fn3] That “ideological power” is behind “unwarranted simplifications of global spatial patterns” (xiii).
 
@@ -140,7 +144,7 @@ With NER, I noted historical place names like Lower Canada, which was the Britis
     </div>
 </div>
 <div class="caption">
-   Visualization produced at https://www.meridianoutpost.com/resources/etools/calculators/calculator-latitude-longitude-distance.php?
+    Visualization produced with the Latitude/Longitude Distance Calculator by Meridian Outpost.
 </div>
 
 In this explicitly colonial imaginary, Orinoco is a placeholder for the gulf of Saint Lawrence, and Peru is a placeholder for China. And elsewhere in that same text, Ferron imagines how sixteenth-century colonials would have first apprehended the New World:
@@ -157,13 +161,13 @@ To conclude, I briefly gloss the passage from a text titled “Beatniks, Vietnik
 
 Here we get a broad geographic expanse that is only coherent in space in specific historical and racialized context. We get East meeting West, that historic binary with China and Venice Beach, California, as the antipodes, but American, Vietnamese and Quebecois youth juxtaposed in the same enumeration in the title. We get a description of a white youth learning of his colonial subjecthood far from home in a turn of phrase that I can only characterize as colonial hallucination : “the last white colony of the Far Occident.”
 
-[^fn1]: Jean-Daniel Lafond, _La Manière n_gre ou Aimé Césaire, chemin faisant_, 1993, pp 13, my translation.
-[^fn2]: Antonio Benítez-Rojo 1989 The Repeating Island: The Caribbean and the Postmodern Perspective, 3.
-[^fn3]: Karen and Martin, ix.
-[^fn4]: reference needed
-[^fn5]: Jacques Ferron, La Brèche
-[^fn6]: Ferron reference
-[^fn7]: Depocas reference
+[^fn1]: Jean-Daniel Lafond, _La Manière n_gre ou Aimé Césaire, chemin faisant_, 1993, 13, my translation.
+[^fn2]: Antonio Benítez-Rojo, _The Repeating Island: The Caribbean and the Postmodern Perspective_, 1989, 3.
+[^fn3]: Martin Lewis and Kären Wigen, _The Myth of Continents: A Critique of Metageography_, 1997, ix.
+[^fn4]: Lafond, 13, my translation.
+[^fn5]: Jacques Ferron, "La Brèche", my translation.
+[^fn6]: Ferron, my translation. 
+[^fn7]: Depocas, my translation.
 
 > Acknowledgements
 > Thank you to Merve Tekgürler for making this project prototype possible in Fall 2023. Thank you to Quinn Dombrowski for initially coding the scraper in Winter 2023. Thank you to Em Ho for improving on Dombrowski's scraper and growing the corpus in Summer 2024. My collaboration with Ho was made possible by the Stanford School of Humanities & Sciences through a Graduate Research Opportunity Grant.
