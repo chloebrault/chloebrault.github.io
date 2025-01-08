@@ -18,8 +18,8 @@ This dissertation analyzes the construction of White Negritude by Pierre Valliè
     </div>
 </div>
 <div class="caption">
-   Aimé Césaire, Miami, 1987. Film still. 
-    *Aimé Césaire, le masque des mots.* Directed by Sarah Maldoror, RFO/ La Sept, 1987.
+   Aimé Césaire, Miami, 1987. Film still.
+   <em>Aimé Césaire, le masque des mots.</em> Directed by Sarah Maldoror, RFO/La Sept, 1987.
 </div>
 
 <div class="row">
@@ -28,7 +28,7 @@ This dissertation analyzes the construction of White Negritude by Pierre Valliè
     </div>
 <div class="caption">
     Dany Laferrière, c. 1985. Portrait.
-    Le Journal de Quebec, [Available online.](https://site.prix-fetkann.fr/dany-laferriere-nouvel-immortel-de-lacademie-francaise/dany-laferriere-slide_329674_3227307_free/)
+    Le Journal de Quebec, <a href="https://site.prix-fetkann.fr/dany-laferriere-nouvel-immortel-de-lacademie-francaise/dany-laferriere-slide_329674_3227307_free/" target="_blank">Available online.</a>
 </div>
 
 </div>
@@ -39,7 +39,7 @@ This dissertation analyzes the construction of White Negritude by Pierre Valliè
 </div>
 <div class="caption">
     Pierre Vallières, Montreal, 1970. Portrait.
-    Filion, Réal. *Pierre Vallières*, 1970, Université de Montréal, [Available online.](https://monde.ccdmd.qc.ca/ressource/?id=115625&demande=desc)  
+    Filion, Réal. <em>Pierre Vallières</em>, 1970, Université de Montréal, <a href="https://monde.ccdmd.qc.ca/ressource/?id=115625&demande=desc" target="_blank">Available online.</a>  
 </div>
 
 This project was funded by the Social Sciences and Humanities Research Council of Canada, France-Stanford, and Stanford’s Center for Spatial and Textual Analysis, and the Clayman Institute for Gender Research. I presented my work at the 20th & 21st Century French and Francophone Studies International Colloquium, the American Comparative Literature Association, and thrice at the Modern Language Association. In 2020, I started presenting my digital humanities research at numerous venues on Stanford’s campus, including the Literary Lab.
