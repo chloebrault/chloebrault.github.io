@@ -8,7 +8,7 @@ category: digital humanities
 related_publications: false
 ---
 
-We compiled, counted, characterized, and visualized claims to globality across texts published in 970 issues of independent magazines published in Montreal from the mid-1960s to the early 2000s, including _Revue Parti Pris_, _Cité Libre_, and _Québec-presse_. We prototyped the project on the 40 existing issues of _Revue Parti Pris_, iteratively experimenting with named entity recognition and topic modeling.
+Starting in Fall 2023, we compiled, counted, characterized, and visualized claims to globality across texts published in 970 issues of independent magazines published in Montreal from the mid-1960s to the early 2000s, including _Revue Parti Pris_, _Cité Libre_, and _Québec-presse_. We prototyped the project on the 40 existing issues of _Revue Parti Pris_, iteratively experimenting with named entity recognition and topic modeling.
 
 ## Introduction
 
@@ -25,7 +25,7 @@ Where is the world for Quebec? From the 1960s to the 1990s, writers like Jacques
    Visualization produced with the Latitude/Longitude Distance Calculator by Meridian Outpost.
 </div>
 
-Anticosti is an island in the North Atlantic Ocean, and the Caribbean Sea is a large oceanic sea, also located in the basin of the North Atlantic, but at a very different latitude. The geographical center of the Anticosti Island is at 49°32′N and 63°14′W. On the other hand, the northernmost point of the Carribean Sea, the Windward Channel between the islands of Cuba and Hispaniola, has its center located at 20°N and 74°W.
+Anticosti is an island in the North Atlantic Ocean, and the Caribbean Sea is a large oceanic sea, also located in the basin of the North Atlantic, but at a very different latitude. The geographical center of the Anticosti Island is at 49°32′N and 63°14′W. On the other hand, the northernmost point of the Caribbean Sea, the Windward Channel between the islands of Cuba and Hispaniola, has its center located at 20°N and 74°W.
 
 ## Questions
 
@@ -165,7 +165,7 @@ Here we get a broad geographic expanse that is only coherent in space in specifi
 [^fn2]: Antonio Benítez-Rojo, _The Repeating Island: The Caribbean and the Postmodern Perspective_, 1989, 3.
 [^fn3]: Martin Lewis and Kären Wigen, _The Myth of Continents: A Critique of Metageography_, 1997, ix.
 [^fn4]: Lafond, 13, my translation.
-[^fn5]: Jacques Ferron, "Ce bordel de parys--II : la brèche", _Revue Parti Pris_, vol. 1, no. 4, January 1964, 60, my translation.
+[^fn5]: Jacques Ferron, "Ce bordel de pays--II : la brèche", _Revue Parti Pris_, vol. 1, no. 4, January 1964, 60, my translation.
 [^fn6]: Ferron, 61, my translation.
 [^fn7]: Depocas, “Beatniks, Vietniks, Québecniks : gauchisme à gogo?” _Revue Parti Pris_, vol. 3, no. 9, April 1966, 12, my translation.
 
