@@ -24,12 +24,12 @@ My dissertation analyzes the construction of White Negritude by Pierre Vallière
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Laferriere-How-to-make-love.jpg" title="Laferriere-How-to-make-love" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
 <div class="caption">
     Dany Laferrière, c. 1985. Portrait.
     Le Journal de Quebec, <a href="https://site.prix-fetkann.fr/dany-laferriere-nouvel-immortel-de-lacademie-francaise/dany-laferriere-slide_329674_3227307_free/" target="_blank">Available online.</a>
 </div>
 
-</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Vallieres_1970.jpg" title="Vallieres_1970" class="img-fluid rounded z-depth-1" %}
